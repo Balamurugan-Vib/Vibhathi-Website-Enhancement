@@ -56,9 +56,17 @@ nav.solutek_menu {
   -webkit-transition: 0.5s;
   text-decoration: none;
   font-size: 16px;
-  color: #050a1e;
+  color: #ffffff;
   font-weight: 400;
   font-family: "Poppins";
+}
+/* indexmenu nav a.color code below */
+/* a.index-navmenu {
+  color: #000000 !important;
+} */
+/* stickynavscroll color changes */
+div#sticky-header {
+  background-color: #060b20;
 }
 
 nav.solutek_menu ul li a i {
@@ -211,7 +219,7 @@ nav.solutek_menu span {
 }
 
 .sticky .solutek_menu li a {
-  color: #fff;
+  color: #ffffff;
 }
 
 .solutek_nav_manu.sticky a.dtbtn {
@@ -350,6 +358,13 @@ color: #7dc243;
 .solutek-btn a:hover {
   color: #7dc243;
   background-color: white;
+}
+
+/* navbar button hover code 6-1-25 */
+
+a.service-btn:hover {
+  color: #f4f4f4;
+  background-color: rgb(14, 90, 8);
 }
 
 .hero-video-icon {
@@ -943,7 +958,7 @@ h1.section-main-title2 {
 =======================================*/
 
 .blog-area {
-  padding: 60px 0 0px;
+  padding: 60px 0 0;
   background: #f4f4f4;
 }
 
@@ -3789,7 +3804,7 @@ ul.list-style-one li a:hover {
 .project-thumb::before {
   position: absolute;
   content: "";
-  height: 100%;
+  height: 70%;
   width: 0;
   background: url(assets/images/home-two/oraceleapexindex2thumbhover.png);
   background-repeat: no-repeat;
@@ -4392,7 +4407,7 @@ ul.list-style-one li a:hover {
    <!--solutek hero Area style-three-->
 =========================================================---*/
 .hero-area.style-three {
-  height: 800px;
+  height: 600px;
   background: #050a1e;
   margin: 0;
   padding-bottom: 12px;
@@ -4535,6 +4550,7 @@ ul.list-style-one li a:hover {
   position: absolute;
   top: 90px;
   left: 55px;
+  display: none;
 }
 
 .hero-active .owl-next{
@@ -4550,7 +4566,7 @@ ul.list-style-one li a:hover {
   position: absolute;
   bottom: 170px;
   left: 55px;
-
+  display: none;
 }
 
 .hero-active {
@@ -5156,7 +5172,7 @@ li.list-arrow {
 
 
 /* <!--==================================================-- */
-/* <!--start solutek about us Area -- */
+/* <!--start solutek About Us Area -- */
 /* <!--==================================================--> */
 .about-us-area {
   background: #fff;
@@ -7049,7 +7065,7 @@ p.blog-details-desc.three {
 
 .scroll-area {
   position: relative;
-  z-index: 999;
+  z-index: 1;
 }
 
 .scroll-area .go-top {
@@ -7134,7 +7150,7 @@ p.blog-details-desc.three {
 }
 
 .scroll-area .go-top.active {
-  top: 95%;
+  top: 84%;
   -webkit-transform: translateY(-98%);
   -moz-transform: translateY(-98%);
   opacity: 1;
@@ -8121,7 +8137,7 @@ li.nav-btn.mean-last {
   font-size: 15px;
   padding-left: 25px;
   margin-bottom: 30px;
-  background-color: #e4f4d3;
+  background-color: #eef4e7;
 }
 select.form-select {
     width: 100%;
@@ -8131,7 +8147,7 @@ select.form-select {
     font-size: 15px;
     padding-left: 25px;
     margin-bottom: 30px;
-    background-color: #e4f4d3;
+    background-color: #e6f0da;
 }
 .bis-faq-contact-form textarea {
   height: 110px;
@@ -8143,9 +8159,109 @@ select.form-select {
   font-weight: 700;
   padding: 18px 20px;
   background-color: #7dc243;
+  border-radius: 20px
 }
 .bis-faq-contact-form button i {
   margin-left: 8px;
 }
 
+/* Hero Slider Btn */
 
+.carousel-controls {
+  text-align: center;
+/* margin-top: 20px; */
+bottom: 60px;
+position: relative;
+z-index: 1;
+    }
+
+    .btn-control {
+        background-color: #7dc243;
+        color: #ffffff;
+        border: none;
+        padding: 10px 10px;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 0 5px;
+    }
+
+button#prev-btn {
+border-radius: 30px;
+justify-content: center;
+}
+
+button#next-btn {
+border-radius: 30px;
+justify-content: center;
+}
+
+i.fas.fa-arrow-right {
+display: flex
+;
+}
+i.fas.fa-arrow-left {
+display: flex
+;
+}
+
+    .btn-control:hover {
+        background-color: #e50914;
+    }
+
+
+
+/* contact indexpage 7-1-2025 */
+    .contact-info {
+      position: relative;
+      display: flex;
+      padding: 30px;
+      border: 1px solid rgba(0, 0, 0, .1);
+      margin-bottom: 30px;
+      transition: .3s;
+  }
+
+  .contact-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.contact-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.contact .contact-text h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #092a49;
+  letter-spacing: 1px;
+}
+
+.contact .contact-text p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.contact-info:hover {
+  border-color: transparent;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+i.fa.fa-envelope {
+  color: #7dc243;
+}
+
+i.fa.fa-phone-alt {
+  color: #7dc243;
+}
+
+i.fa.fa-map-marker-alt {
+  color: #7dc243;
+}
