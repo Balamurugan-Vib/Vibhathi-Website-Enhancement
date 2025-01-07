@@ -8218,6 +8218,8 @@ display: flex
       border: 1px solid rgba(0, 0, 0, .1);
       margin-bottom: 30px;
       transition: .3s;
+      align-items: center;
+      flex-wrap: wrap;
   }
 
   .contact-icon {
