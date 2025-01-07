@@ -3804,7 +3804,7 @@ ul.list-style-one li a:hover {
 .project-thumb::before {
   position: absolute;
   content: "";
-  height: 70%;
+  height: 100%;
   width: 0;
   background: url(assets/images/home-two/oraceleapexindex2thumbhover.png);
   background-repeat: no-repeat;
@@ -8218,8 +8218,6 @@ display: flex
       border: 1px solid rgba(0, 0, 0, .1);
       margin-bottom: 30px;
       transition: .3s;
-      align-items: center;
-      flex-wrap: wrap;
   }
 
   .contact-icon {
