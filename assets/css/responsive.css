@@ -71,8 +71,8 @@
 }
 
 .hero-area.style-three .hero-contant {
-    padding-top: 130px;
-    padding-left: 50px;
+    padding-top: 0px;
+    padding-left: 20px;
 }
 
 .about-section .about-contact {
@@ -538,7 +538,7 @@ h3.service-title {
 }
 
 .solutek-btn a {
-    padding: 16px 16px;
+    padding: 10px 13px;
 }
 
 .hero-area.style-two .hero-thumb img {
