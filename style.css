@@ -3843,6 +3843,12 @@ ul.list-style-one li a:hover {
   background-size: cover;
   background-position: center center;
 }
+.project-thumb.style-six::before {
+  background: url(assets/images/home-two/genaiembedhover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 .project-area.styl-two .project-content {
   display: inline-block;
@@ -3899,7 +3905,7 @@ ul.list-style-one li a:hover {
   height: 70px;
   line-height: 70px;
   border-radius: 100%;
-  background-color: #161a2b;
+  background-color: #2f3e7e;
   text-align: center;
   color: #7dc243;
   font-size: 32px;
@@ -3950,7 +3956,7 @@ ul.list-style-one li a:hover {
   width: 55px;
   height: 55px;
   line-height: 55px;
-  background-color: #161a2b;
+  background-color: #2f3e7e;;
   display: inline-block;
   text-align: center;
   border-radius: 10px 0px 10px 10px;
@@ -4522,7 +4528,8 @@ ul.list-style-one li a:hover {
 
 .hero-area.style-three .hero-thumb-shape {
   position: absolute;
-  top: 10px;
+  top: 110px;
+  left: -40px;
 }
 
 .hero-area.style-three .hero-left-shape {
@@ -6383,7 +6390,7 @@ li.current_menu_item {
 }
 
 .case-study-single-box {
-  margin-bottom: 85px;
+  /* margin-bottom: 85px; */
   margin-right: 70px;
 }
 
@@ -6394,7 +6401,7 @@ li.current_menu_item {
   padding: 35px 35px 27px;
   border-radius: 20px;
   background-color: #f4f4f4;
-  position: absolute;
+  position: relative;
   bottom: 30px;
   left: 90px;
   width: 84%;
