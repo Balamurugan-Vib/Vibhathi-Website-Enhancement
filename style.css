@@ -3957,11 +3957,11 @@ ul.list-style-one li a:hover {
   width: 55px;
   height: 55px;
   line-height: 55px;
-  background-color: #2f3e7e;;
+  background-color: #cfd8dc;
   display: inline-block;
   text-align: center;
   border-radius: 10px 0px 10px 10px;
-  color: #7dc243;
+  color: #05081e;
   font-size: 22px;
   transition: 0.5s;
 }
@@ -3975,18 +3975,18 @@ ul.list-style-one li a:hover {
   width: 55px;
   height: 55px;
   line-height: 55px;
-  background: #7dc243;
+  background-color: #cfd8dc;
   display: inline-block;
   text-align: center;
   border-radius: 10px 0px 10px 10px;
-  color: #fff;
+  color: #05081e;
   font-size: 22px;
   transition: 0.5s;
 }
 
 .project-area.styl-two .owl-next:hover {
-  background: #7dc243;
-  color: #fff;
+  background-color: #cfd8dc;
+  color: #05081e;
 }
 
 .project-area.styl-two .owl-nav {
