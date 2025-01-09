@@ -38,9 +38,52 @@
 	<!-- bootstrap icons -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-<!-- /*******************************/
-/********* Contact CSS *********/
-/*******************************/	 -->
+	<!-- Slider arrow css 9-1-2025 -->
+
+	<style>
+		.carousel-controls {
+			/* position: relative; Set relative to contain buttons within the carousel */
+			width: 100%;
+			height: 0;
+		}
+
+		#prev-btn,
+		#next-btn {
+			position: absolute;
+			top: 50%;
+			/* Align vertically at the center */
+			transform: translateY(-50%);
+			background-color: rgb(0 0 0 / 17%);
+			color: #ffffff8a;
+			border: none;
+			padding: 9px 10px;
+			cursor: pointer;
+			z-index: 10;
+			/* Ensure buttons are above the carousel */
+			border-radius: 50%;
+			font-size: 18px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: background-color 0.3s ease;
+		}
+
+		#prev-btn {
+			left: 10px;
+			/* Position on the left side */
+		}
+
+		#next-btn {
+			right: 10px;
+			/* Position on the right side */
+		}
+
+		#prev-btn:hover,
+		#next-btn:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+			/* Darken on hover */
+		}
+	</style>
 
 </head>
 
@@ -63,12 +106,12 @@
 			<div class="row d-flex align-items-center">
 				<div class="col-lg-2">
 					<div class="logo">
-						<a class='logo_img' href='(index).html' title='solutek'>
+						<a class='logo_img' href='(index).html' title='vibhathi-labs'>
 							<img src="assets/images/logo 1.png"
 								style="border: 0px  ; width: 155px; height: 70px; margin: 10px 0px 10px 0px;"
 								alt="logo">
 						</a>
-						<a class='main_sticky' href='(index).html' title='solutek'>
+						<a class='main_sticky' href='(index).html' title='vibhathi-labs'>
 							<img src="assets/images/logo 1.png"
 								style="border: 0px  ; width: 165px; height: 75px; margin: 10px 0px 0px 0px;"
 								alt="astute">
@@ -99,24 +142,26 @@
 								<li><a href='/contact'>Contact</a></li>
 							</ul> -->
 							</li>
-							<li><a href="#service-section" class="index-navmenu">Services <i class="bi bi-chevron-down"></i></a>
+							<li><a href="#service-section" class="index-navmenu">Services <i
+										class="bi bi-chevron-down"></i></a>
 								<ul class="sub-menu">
-								<li><a href='oracelapexdetail.html'>Oracle APEX Low Code No Code</a></li>
-								<!-- <li><a href='defidevopdetail.html'>DeFi Development Services</a></li> -->
-								<li><a href='sapservicesdetail.html'>SAP Services</a></li>
-								<!-- <li><a href='salesforcedetail.html'>Salesforce</a></li> -->
-								<!-- <li><a href='fullstackdevopdetail.html'>Full-Stack Development</a></li> -->
-								<li><a href='https://www.genaiembed.ai/'>GenAI Embedd</a></li>
-							</ul>
+									<li><a href='oracelapexdetail.html'>Oracle APEX Low Code No Code</a></li>
+									<!-- <li><a href='defidevopdetail.html'>DeFi Development Services</a></li> -->
+									<li><a href='sapservicesdetail.html'>SAP Services</a></li>
+									<!-- <li><a href='salesforcedetail.html'>Salesforce</a></li> -->
+									<!-- <li><a href='fullstackdevopdetail.html'>Full-Stack Development</a></li> -->
+									<li><a href='https://www.genaiembed.ai/'>GenAI Embedd</a></li>
+								</ul>
 							</li>
-							<li><a href="#industires-section" class="index-navmenu">Products <i class="bi bi-chevron-down"></i></a>
+							<li><a href="#industires-section" class="index-navmenu">Products <i
+										class="bi bi-chevron-down"></i></a>
 								<ul class="sub-menu">
-								<li><a href='automotivedetail.html'>Automotive</a></li>
-								<li><a href='manufacturingdetail.html'>Manufacturing</a></li>
-								<li><a href='pharmahealthcaredetail.html'>Pharma & Healthcare</a></li>
-								<li><a href='bfsidetail.html'>BFSI</a></li>
-								<li><a href='professionalservicesdetails.html'>Professional Services</a></li>
-							</ul>
+									<li><a href='automotivedetail.html'>Automotive</a></li>
+									<li><a href='manufacturingdetail.html'>Manufacturing</a></li>
+									<li><a href='pharmahealthcaredetail.html'>Pharma & Healthcare</a></li>
+									<li><a href='bfsidetail.html'>BFSI</a></li>
+									<li><a href='professionalservicesdetails.html'>Professional Services</a></li>
+								</ul>
 							</li>
 							<!-- <li><a href="#team-section">Team </a>
 								<ul class="sub-menu">
@@ -178,22 +223,22 @@
 					</li>
 					<li><a href="#service-section">Services </a>
 						<ul class="sub-menu">
-						<li><a href='oracelapexdetail.html'>Oracle APEX Low Code No Code</a></li>
-						<!-- <li><a href='defidevopdetail.html'>DeFi Development Services</a></li> -->
-						<li><a href='sapservicesdetail.html'>SAP Services</a></li>
-						<!-- <li><a href='salesforcedetail.html'>Salesforce</a></li>
+							<li><a href='oracelapexdetail.html'>Oracle APEX Low Code No Code</a></li>
+							<!-- <li><a href='defidevopdetail.html'>DeFi Development Services</a></li> -->
+							<li><a href='sapservicesdetail.html'>SAP Services</a></li>
+							<!-- <li><a href='salesforcedetail.html'>Salesforce</a></li>
 						<li><a href='fullstackdevopdetail.html'>Full-Stack Development</a></li> -->
-						<li><a href='https://www.genaiembed.ai/'>GenAI Embedd</a></li>
-					</ul>
+							<li><a href='https://www.genaiembed.ai/'>GenAI Embedd</a></li>
+						</ul>
 					</li>
 					<li><a href="#industires-section">Products </a>
 						<ul class="sub-menu">
-						<li><a href='automotivedetail.html'>Automotive</a></li>
-						<li><a href='manufacturingdetail.html'>Manufacturing</a></li>
-						<li><a href='pharmahealthcaredetail.html'>Pharma & Healthcare</a></li>
-						<li><a href='bfsidetail.html'>BFSI</a></li>
-						<li><a href='professionalservicesdetails.html'>Professional Services</a></li>
-					</ul>
+							<li><a href='automotivedetail.html'>Automotive</a></li>
+							<li><a href='manufacturingdetail.html'>Manufacturing</a></li>
+							<li><a href='pharmahealthcaredetail.html'>Pharma & Healthcare</a></li>
+							<li><a href='bfsidetail.html'>BFSI</a></li>
+							<li><a href='professionalservicesdetails.html'>Professional Services</a></li>
+						</ul>
 					</li>
 					<!-- <li><a href="#team-section">Team </a>
 						<ul class="sub-menu">
@@ -283,7 +328,8 @@
 							<h1>Oracle APEX</h1>
 							<span>Low Code</span>
 							<h1> No Code</h1>
-							<p style="text-align: justify;">Welcome to Vibhathi Labs, where we blend innovation with efficiency through Oracle APEX
+							<p style="text-align: justify;">Welcome to Vibhathi Labs, where we blend innovation with
+								efficiency through Oracle APEX
 								Low Code No Code solutions</p>
 							<div class="solutek-btn">
 								<a class='btn-2' href='#contact-us'>Know more</a>
@@ -321,7 +367,8 @@
 							<!-- <h1>SAP Services</h1> -->
 							<h1>Unlock the full potential</h1>
 							<span>of your SAP investments</span>
-							<p style="text-align: justify;">Welcome to the world of Vibhathi Labs' SAP Services, where innovation, efficiency, and
+							<p style="text-align: justify;">Welcome to the world of Vibhathi Labs' SAP Services, where
+								innovation, efficiency, and
 								seamless integration converge to drive business growth</p>
 							<div class="solutek-btn">
 								<a class='btn-2' href='#contact-us'>Know more</a>
@@ -359,7 +406,8 @@
 							<!-- <h1>SAP Services</h1> -->
 							<h1>Elevate Your Business with</h1>
 							<span>Salesforce</span>
-							<p style="text-align: justify;">Welcome to Vibhathi Labs, where we unleash the power of Salesforce to transform your
+							<p style="text-align: justify;">Welcome to Vibhathi Labs, where we unleash the power of
+								Salesforce to transform your
 								business into a sales and customer service powerhouse</p>
 							<div class="solutek-btn">
 								<a class='btn-2' href='#contact-us'>Know more</a>
@@ -397,7 +445,8 @@
 							<!-- <h1>SAP Services</h1> -->
 							<h1>Cutting-Edge DeFi</h1>
 							<span>Development</span>
-							<p style="text-align: justify;">At Vibhathi Labs, we understand the immense potential and disruptive power of DeFi, and
+							<p style="text-align: justify;">At Vibhathi Labs, we understand the immense potential and
+								disruptive power of DeFi, and
 								we are here to help you unlock its full potential for your business.</p>
 							<div class="solutek-btn">
 								<a class='btn-2' href='#contact-us'>Know more</a>
@@ -435,7 +484,8 @@
 							<h1>Driving Innovation with</h1>
 							<span>Full-Stack Development</span>
 							<!-- <h1> with IT Excellence</h1> -->
-							<p style="text-align: justify;">Welcome to Vibhathi Labs' Full-Stack Development services, where innovation, expertise,
+							<p style="text-align: justify;">Welcome to Vibhathi Labs' Full-Stack Development services,
+								where innovation, expertise,
 								and efficiency converge to deliver exceptional software solutions.</p>
 							<div class="solutek-btn">
 								<a class='btn-2' href='#contact-us'>Know more</a>
@@ -467,7 +517,7 @@
 	</div>
 	<div class="carousel-controls">
 		<button id="prev-btn" class="btn-control">
-			<i class="fas fa-arrow-left"></i> 
+			<i class="fas fa-arrow-left"></i>
 		</button>
 		<button id="next-btn" class="btn-control">
 			<i class="fas fa-arrow-right"></i>
@@ -512,7 +562,8 @@
 					</div>
 				</div> -->
 					<div class="about-text">
-						<p style="text-align: justify;">Our team of tech wizards combines their expertise with a dash of AI to deliver streamlined
+						<p style="text-align: justify;">Our team of tech wizards combines their expertise with a dash of
+							AI to deliver streamlined
 							development and unleash the power of your ideas.Experience the magic of rapid application
 							creation, seamless integration, intuitive user experience, scalable solutions, and
 							effortless collaboration.With Vibhathi Labs, you will find a willing partner committed to
@@ -612,144 +663,146 @@
 
 
 	<!--==================================================-->
-<!-- start solutek project Area style-two-->
-<!--==================================================-->
+	<!-- start solutek project Area style-two-->
+	<!--==================================================-->
 
-<div class="project-area styl-two">
-	<div class="container-fluid">
-		<div class="row project-section">
-			<div class="col-lg-10">
-				<div class="section-title text-left">
-					<!-- <h5 class="section-sub-title">WE OFFER</h5> -->
-					<!-- <h1 class="section-main-title" style="font-size: x-large;">We Accelerate Clients' Journey to Innovation</h1> -->
-					<h1 class="section-main-title" style="font-size: xx-large;">Our Exclusive <span>IT Services</span> </h1>
+	<div class="project-area styl-two">
+		<div class="container-fluid">
+			<div class="row project-section">
+				<div class="col-lg-10">
+					<div class="section-title text-left">
+						<h5 class="section-sub-title">Our Exclusive Services</h5>
+						<!-- <h1 class="section-main-title" style="font-size: x-large;">We Accelerate Clients' Journey to Innovation</h1> -->
+						<!-- <h1 class="section-main-title" style="font-size: xx-large;">Our Exclusive <span>IT Services</span> </h1> -->
+					</div>
+				</div>
+				<div class="col-lg-6">
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="row project-carousel">
+				<div class="project_item owl-carousel">
+					<div class="col-xl-12 col-lg-12">
+						<div class="project-single-box">
+							<div class="project-thumb">
+								<img src="assets/images/home-two/oraceleapexindex2thumb.png" alt="project-thumb">
+							</div>
+							<div class="project-content">
+								<h4 class="project-title"><a href='oracelapexdetail.html'>Oracle APEX</a></h4>
+								<!-- <p class="project-des">Creative Theme</p> -->
+							</div>
+							<div class="project-icon">
+								<a href="oracelapexdetail.html"><span><i class="bi bi-arrow-right"></i></span></a>
+							</div>
+							<div class="project-shape">
+								<img src="assets/images/home-two/border-shape.png" alt="shape">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12 col-lg-12">
+						<div class="project-single-box">
+							<div class="project-thumb style-two">
+								<img src="assets/images/home-two/defiindex2.png" alt="project-thumb">
+							</div>
+							<div class="project-content">
+								<h4 class="project-title"><a href='defidevopdetail.html'>DeFi Development</a></h4>
+								<!-- <p class="project-des">Creative Theme</p> -->
+							</div>
+							<div class="project-icon">
+								<a href="defidevopdetail.html"><span><i class="bi bi-arrow-right"></i></span></a>
+							</div>
+							<div class="project-shape">
+								<img src="assets/images/home-two/border-shape.png" alt="shape">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12 col-lg-12">
+						<div class="project-single-box">
+							<div class="project-thumb style-three">
+								<img src="assets/images/home-two/sapindex2thumb.png" alt="project-thumb">
+							</div>
+							<div class="project-content">
+								<h4 class="project-title"><a href='sapservicesdetail.html'>SAP Services</a></h4>
+								<!-- <p class="project-des">Creative Theme</p> -->
+							</div>
+							<div class="project-icon">
+								<a href="sapservicesdetail.html"><span><i class="bi bi-arrow-right"></i></span></a>
+							</div>
+							<div class="project-shape rotateme">
+								<img src="assets/images/home-two/border-shape.png" alt="shape">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12 col-lg-12">
+						<div class="project-single-box">
+							<div class="project-thumb style-four">
+								<img src="assets/images/home-two/salesforceindex2.png" alt="project-thumb">
+							</div>
+							<div class="project-content">
+								<h4 class="project-title"><a href='salesforcedetail.html'>Salesforce</a></h4>
+								<!-- <p class="project-des">Creative Theme</p> -->
+							</div>
+							<div class="project-icon">
+								<a href="salesforcedetail.html"><span><i class="bi bi-arrow-right"></i></span></a>
+							</div>
+							<div class="project-shape">
+								<img src="assets/images/home-two/border-shape.png" alt="shape">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12 col-lg-12">
+						<div class="project-single-box">
+							<div class="project-thumb style-six">
+								<img src="assets/images/home-two/genaiembedservicethumbindex.png" alt="project-thumb">
+							</div>
+							
+							<div class="project-content">
+								<h4 class="project-title"><a href='https://www.genaiembed.ai/'>GenAI Embed</a></h4>
+								<!-- <p class="project-des">Creative Theme</p> -->
+							</div>
+							<div class="project-icon">
+								<a href="https://www.genaiembed.ai/"><span><i class="bi bi-arrow-right"></i></span></a>
+							</div>
+							<div class="project-shape">
+								<img src="assets/images/home-two/border-shape.png" alt="shape">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12 col-lg-12">
+						<div class="project-single-box">
+							<div class="project-thumb style-five">
+								<img src="assets/images/home-two/fullstackindex2.png" alt="project-thumb">
+							</div>
+							<div class="project-content">
+								<h4 class="project-title"><a href='fullstackdevopdetail.html'>Full-Stack Development</a>
+								</h4>
+								<!-- <p class="project-des">Creative Theme</p> -->
+							</div>
+							<div class="project-icon">
+								<a href="fullstackdevopdetail.html"><span><i class="bi bi-arrow-right"></i></span></a>
+								<!-- <p class="solutek-btn"><a href="">Click here</a></p> -->
+							</div>
+							<div class="project-shape rotateme">
+								<img src="assets/images/home-two/border-shape.png" alt="shape">
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="row project-carousel">
-			<div class="project_item owl-carousel">
-				<div class="col-xl-12 col-lg-12">
-					<div class="project-single-box">
-						<div class="project-thumb">
-							<img src="assets/images/home-two/oraceleapexindex2thumb.png" alt="project-thumb">
-						</div>
-						<div class="project-content">
-							<h4 class="project-title"><a href='oracelapexdetail.html'>Oracle APEX</a></h4>
-							<!-- <p class="project-des">Creative Theme</p> -->
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-12 col-lg-12">
-					<div class="project-single-box">
-						<div class="project-thumb style-two">
-							<img src="assets/images/home-two/defiindex2.png" alt="project-thumb">
-						</div>
-						<div class="project-content">
-							<h4 class="project-title"><a href='defidevopdetail.html'>DeFi Development</a></h4>
-							<!-- <p class="project-des">Creative Theme</p> -->
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-12 col-lg-12">
-					<div class="project-single-box">
-						<div class="project-thumb style-three">
-							<img src="assets/images/home-two/sapindex2thumb.png" alt="project-thumb">
-						</div>
-						<div class="project-content">
-							<h4 class="project-title"><a href='sapservicesdetail.html'>SAP Services</a></h4>
-							<!-- <p class="project-des">Creative Theme</p> -->
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape rotateme">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-12 col-lg-12">
-					<div class="project-single-box">
-						<div class="project-thumb style-four">
-							<img src="assets/images/home-two/salesforceindex2.png" alt="project-thumb">
-						</div>
-						<div class="project-content">
-							<h4 class="project-title"><a href='salesforcedetail.html'>Salesforce</a></h4>
-							<!-- <p class="project-des">Creative Theme</p> -->
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-12 col-lg-12">
-					<div class="project-single-box">
-						<div class="project-thumb style-six">
-							<img src="assets/images/home-two/genaiembedservicethumbindex.png" alt="project-thumb">
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-content">
-							<h4 class="project-title"><a href='https://www.genaiembed.ai/'>GenAI Embed</a></h4>
-							<!-- <p class="project-des">Creative Theme</p> -->
-						</div>
-						<div class="project-shape">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-12 col-lg-12">
-					<div class="project-single-box">
-						<div class="project-thumb style-five">
-							<img src="assets/images/home-two/fullstackindex2.png" alt="project-thumb">
-						</div>
-						<div class="project-content">
-							<h4 class="project-title"><a href='fullstackdevopdetail.html'>Full-Stack Development</a></h4>
-							<!-- <p class="project-des">Creative Theme</p> -->
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-							<!-- <p class="solutek-btn"><a href="">Click here</a></p> -->
-						</div>
-						<div class="project-shape rotateme">
-						<img src="assets/images/home-two/border-shape.png" alt="shape">
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="project-bg-shape rotateme">
+			<img src="assets/images/home-two/project-bg-shape.png" alt="shape">
 		</div>
 	</div>
-	<div class="project-bg-shape rotateme">
-		<img src="assets/images/home-two/project-bg-shape.png" alt="shape">
-	</div>
-</div>
 
 
-<!--==================================================-->
-<!-- end solutek project Area style-two-->
-<!--==================================================-->
+	<!--==================================================-->
+	<!-- end solutek project Area style-two-->
+	<!--==================================================-->
 
-<!--==================================================-->
+	<!--==================================================-->
 	<!-- Start solutek case-study-area Services area 8-1-2025 -->
-<!--==================================================-->
-<!-- <div class="case-study-area">
+	<!--==================================================-->
+	<!-- <div class="case-study-area">
 	<div class="container">
 		<div class="col-lg-10">
 			<div class="section-title text-left">
@@ -861,9 +914,9 @@
 		</div>
 	</div>
 </div> -->
-<!--==================================================-->
-<!--End solutek case-study-area -->
-<!--==================================================-->
+	<!--==================================================-->
+	<!--End solutek case-study-area -->
+	<!--==================================================-->
 
 
 
@@ -954,7 +1007,8 @@
 					</div>
 				</div> -->
 					<div class="about-text">
-						<p style="text-align: justify;">At Vibhathi, we prioritize our customers and deliver exceptional software and services
+						<p style="text-align: justify;">At Vibhathi, we prioritize our customers and deliver exceptional
+							software and services
 							through innovation and collaboration.
 
 							Partner with us for transformative solutions, seamless execution, and unmatched
@@ -998,239 +1052,190 @@
 
 
 	<!--==================================================-->
-	<!-- start solutek project Area -->
-	<!--==================================================-->
-
-	<div class="project-area" id="industires-section">
-		<div class="container-fluid">
-			<div class="row project align-items-center">
-				<div class="col-lg-6">
-					<div class="section-title text-left">
-						<h5 class="section-sub-title">VIBHATHI LABS</h5>
-						<h1 class="section-main-title">The Range of Products <span>We Offer</span></h1>
-					</div>
-				</div>
-				<!-- <div class="col-lg-6">
-				<div class="project-right">
-					<div class="solutek-btn">
-						<a href='/project'>VIEW  PROJECT DETAIL
-							<div class="solutek-hover-btn hover-bx"></div>
-							<div class="solutek-hover-btn hover-bx2"></div>
-							<div class="solutek-hover-btn hover-bx3"></div>
-							<div class="solutek-hover-btn hover-bx4"></div>
-						</a>
-					</div>
-				</div>
-			</div> -->
-			</div>
-			<div class="row carousel">
-				<div class="project_list owl-carousel">
-					<div class="col-lg-10 col-md-10">
-						<div class="project-single-box">
-							<div class="project-thumb">
-								<img src="assets/images/tickettoolsthumbnail.png" alt="project1">
-							</div>
-							<div class="project-content">
-								<h3 class="project-title"><a href='/automotivedetail.html'>Ticketing Tool</a></h3>
-								<p class="solutek-btn"><a href="automotivedetail.html">Know More</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-10 col-md-10">
-						<div class="project-single-box">
-							<div class="project-thumb">
-								<img src="assets/images/pmsthumbnail.png" alt="project1">
-							</div>
-							<div class="project-content">
-								<h3 class="project-title"><a href='/manufacturingdetail.html'>PMS</a></h3>
-								<!-- <p class="project-text">Know More</p> -->
-								<p class="solutek-btn"><a href="manufacturingdetail.html">Know More</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-10 col-md-10">
-						<div class="project-single-box">
-							<div class="project-thumb">
-								<img src="assets/images/amsthumbnail.png" alt="project1">
-							</div>
-							<div class="project-content">
-								<h3 class="project-title"><a href='/pharmahealthcaredetail.html'>AMS</a>
-								</h3>
-								<p class="solutek-btn"><a href="pharmahealthcaredetail.html">Know More</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-10 col-md-10">
-						<div class="project-single-box">
-							<div class="project-thumb">
-								<img src="assets/images/lmsthumbnail.png" alt="project1">
-							</div>
-							<div class="project-content">
-								<h3 class="project-title"><a href='/bfsidetail.html'>LMS</a>
-								</h3>
-								<p class="solutek-btn"><a href="bfsidetail.html">Know More</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-10 col-md-10">
-						<div class="project-single-box">
-							<div class="project-thumb">
-								<img src="assets/images/Timesheetthumbnail.png" alt="project1">
-							</div>
-							<div class="project-content">
-								<h3 class="project-title"><a href='/bfsidetail.html'>Timesheet</a></h3>
-								<p class="solutek-btn"><a href="bfsidetail.html">Know More</a></p>
-							</div>
-						</div>
-					</div>
-					<!-- <div class="col-lg-12 col-md-12">
-					<div class="project-single-box">
-						<div class="project-thumb">
-							<img src="assets/images/project3.png" alt="project1">
-						</div>
-						<div class="project-content">
-							<h3 class="project-title"><a href='/project-details'>Software Development</a></h3>
-							<p class="project-text">Software</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-12 col-md-12">
-					<div class="project-single-box">
-						<div class="project-thumb">
-							<img src="assets/images/project4.png" alt="project1">
-						</div>
-						<div class="project-content">
-							<h3 class="project-title"><a href='/project-details'>CMC Softwar Solution</a></h3>
-							<p class="project-text">Software</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-12 col-md-12">
-					<div class="project-single-box">
-						<div class="project-thumb">
-							<img src="assets/images/project3.png" alt="project1">
-						</div>
-						<div class="project-content">
-							<h3 class="project-title"><a href='/project-details'>Software Development</a></h3>
-							<p class="project-text">Software</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-12 col-md-12">
-					<div class="project-single-box">
-						<div class="project-thumb">
-							<img src="assets/images/project5.png" alt="project1">
-						</div>
-						<div class="project-content">
-							<h3 class="project-title"><a href='/project-details'>App Development</a></h3>
-							<p class="project-text">Software</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-12 col-md-12">
-					<div class="project-single-box">
-						<div class="project-thumb">
-							<img src="assets/images/project4.png" alt="project1">
-						</div>
-						<div class="project-content">
-							<h3 class="project-title"><a href='/project-details'>CMC Softwar Solution</a></h3>
-							<p class="project-text">Software</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-12 col-md-12">
-					<div class="project-single-box">
-						<div class="project-thumb">
-							<img src="assets/images/project3.png" alt="project1">
-						</div>
-						<div class="project-content">
-							<h3 class="project-title"><a href='/project-details'>Software Development</a></h3>
-							<p class="project-text">Software</p>
-						</div>
-					</div>
-				</div> -->
-					<!-- <div class="col-lg-12 col-md-12">
-						<div class="project-single-box">
-							<div class="project-thumb">
-								<img src="assets/images/professionalthumb.png" alt="project1">
-							</div>
-							<div class="project-content">
-								<h3 class="project-title"><a href='/professionalservicesdetails.html'>Professional Services</a>
-								</h3>
-								<p class="solutek-btn"><a href="professionalservicesdetails.html">Know More</a></p>
-							</div>
-						</div>
-					</div> -->
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--==================================================-->
-	<!-- end solutek project Area -->
-	<!--==================================================-->
-
-
-
-	<!--==================================================-->
-	<!-- start solutek-brand Area -->
-	<!--==================================================-->
-
-
-	<div class="brand-area">
+	<div class="service-area style-two" id="service-section">
 		<div class="container">
 			<div class="row">
-				<div class="brand_list owl-carousel">
-					<div class="col-lg-12">
-						<div class="brand-box">
-							<div class="brand-thumb">
-								<img src="assets/images/brand-img.jpg" alt="brand img">
+				<div class="col-lg-12">
+					<div class="section-title text-center">
+						<h5 class="section-sub-title">Vibhathi Labs</h5>
+						<h1 class="section-main-title">The Range of Products We Offer</h1>
+						<!-- <h1 class="section-main-title">We Offer</h1> -->
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-1">
+					<div class="single-service-box">
+						<div class="service-box-inner">
+							<div class="service-content">
+								<a href="#">
+									<h4 class="service-title"><img src="assets/images/lmsindexpageicon.png" alt="icon">
+										LMS</h4>
+								</a>
+								<!-- <div class="service-icon" style="margin-bottom: -15px;">
+								<img src="assets/images/salesforceicon.png" alt="icon">
+							</div> -->
+								<!-- <p class="service-des">At Vibhathi Labs,we believe in transforming the way businesses
+								develop applications with the power of Oracle APEX.Join us on this
+								exciting journey</p> -->
 							</div>
+							<!-- <div class="solutek-btn" style="margin-top: 5px;">
+							<a href='salesforcedetail.html'>READ MORE</a>
+						</div> -->
 						</div>
 					</div>
-					<div class="col-lg-12">
-						<div class="brand-box">
-							<div class="brand-thumb">
-								<img src="assets/images/brand-img1.jpg" alt="brand img">
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<div class="single-service-box">
+						<div class="service-box-inner">
+							<div class="service-content">
+								<a href="#">
+									<h4 class="service-title"><img src="assets/images/PMSindexpageicon.png" alt="icon">
+										PMS</h4>
+								</a>
+								<!-- <p class="service-des">Welcome to Vibhathi Labs, where we unleash the power of Salesforce to transform your business into a sales and customer service powerhouse.</p> -->
 							</div>
+							<!-- <div class="service-icon" style="margin-bottom: -15px;">
+							<img src="assets/images/salesforceicon.png" alt="icon">
+						</div> -->
+							<!-- <div class="solutek-btn" style="margin-top: 5px;">
+							<a href='salesforcedetail.html'>READ MORE</a>
+						</div> -->
 						</div>
 					</div>
-					<div class="col-lg-12">
-						<div class="brand-box">
-							<div class="brand-thumb">
-								<img src="assets/images/brand-img2.jpg" alt="brand img">
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<div class="single-service-box">
+						<div class="service-box-inner">
+							<div class="service-content">
+								<a href="#">
+									<h4 class="service-title"><img src="assets/images/Amsindexicon.png" alt="icon"> AMS
+									</h4>
+								</a>
+								<!-- <p class="service-des">At Vibhathi Labs,we are committed to delivering exceptional SAP
+								Services that empower your business to thrive in today's complex and competitive
+								market.</p> -->
 							</div>
+							<!-- <div class="service-icon" style="margin-bottom: -15px;">
+							<img src="assets/images/sapicon.png" alt="icon">
+						</div> -->
+							<!-- <div class="solutek-btn" style="margin-top: 5px;">
+							<a href='service-details3.html'>READ MORE</a>
+						</div> -->
 						</div>
 					</div>
-					<div class="col-lg-12">
-						<div class="brand-box">
-							<div class="brand-thumb">
-								<img src="assets/images/brand-img3.jpg" alt="brand img">
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<div class="single-service-box">
+						<div class="service-box-inner">
+							<div class="service-content">
+								<a href="#">
+									<h4 class="service-title"><img src="assets/images/timesheetindexicon.png"
+											alt="icon"> Timesheet</h4>
+								</a>
+								<!-- <p class="service-des">At Vibhathi Labs,we are committed to delivering exceptional SAP
+								Services that empower your business to thrive in today's complex and competitive
+								market.</p> -->
 							</div>
+							<!-- <div class="service-icon" style="margin-bottom: -15px;">
+							<img src="assets/images/sapicon.png" alt="icon">
+						</div> -->
+							<!-- <div class="solutek-btn" style="margin-top: 5px;">
+							<a href='service-details3.html'>READ MORE</a>
+						</div> -->
 						</div>
 					</div>
-					<div class="col-lg-12">
-						<div class="brand-box">
-							<div class="brand-thumb">
-								<img src="assets/images/brand-img4.jpg" alt="brand img">
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<div class="single-service-box">
+						<div class="service-box-inner">
+							<div class="service-content">
+								<a href="#">
+									<h4 class="service-title"><img src="assets/images/ticketingtoolindexicon.png"
+											alt="icon"> Ticketing tool</h4>
+								</a>
+								<!-- <p class="service-des">Our Product offerings include, high-speed and precise semantic
+								vector search engine, sophisticated personalized product recommendation engine.</p>
+						</div> -->
+								<!-- <div class="service-icon" style="margin-bottom: -15px;">
+							<img src="assets/images/GenAIicon.png" alt="icon">
+						</div> -->
+								<!-- <div class="solutek-btn" style="margin-top: 5px;">
+							<a href='https://www.genaiembed.ai/'>READ MORE</a>
+						</div> -->
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+
+		<!--==================================================-->
+		<!-- end solutek service Area style two-->
+		<!--==================================================-->
 
 
-	<!--==================================================-->
-	<!-- end solutek-brand Area -->
-	<!--==================================================-->
 
 
-	<!--==================================================-->
-	<!--start solutek team Area style-two-->
-	<!--==================================================-->
-	<!-- <div class="team-area style-two" id="team-section">
+		<!--==================================================-->
+		<!-- start solutek-brand Area -->
+		<!--==================================================-->
+
+
+		<div class="brand-area">
+			<div class="container">
+				<div class="row">
+					<div class="brand_list owl-carousel">
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/brand-img.jpg" alt="brand img">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/brand-img1.jpg" alt="brand img">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/brand-img2.jpg" alt="brand img">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/brand-img3.jpg" alt="brand img">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/brand-img4.jpg" alt="brand img">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!--==================================================-->
+		<!-- end solutek-brand Area -->
+		<!--==================================================-->
+
+
+		<!--==================================================-->
+		<!--start solutek team Area style-two-->
+		<!--==================================================-->
+		<!-- <div class="team-area style-two" id="team-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -1281,7 +1286,7 @@
 						</div>
 					</div>
 				</div> -->
-				<!-- <div class="col-xl-3 col-lg-4 col-md-6">
+		<!-- <div class="col-xl-3 col-lg-4 col-md-6">
 					<div class="single-team-box">
 						<div class="single-team-thumb">
 							<img src="assets/images/Karkuvelraja Pic-in.svg" alt="thumb">
@@ -1321,23 +1326,23 @@
 						</div>
 					</div>
 				</div> -->
-			<!-- </div>
+		<!-- </div>
 		</div>
 	</div> -->
 
-	<!--==================================================-->
-	<!-- end solutek team Area style-two-->
-	<!--==================================================-->
+		<!--==================================================-->
+		<!-- end solutek team Area style-two-->
+		<!--==================================================-->
 
 
 
 
-	<!--==================================================-->
-	<!-- start solutek-pricing Area -->
-	<!--==================================================-->
+		<!--==================================================-->
+		<!-- start solutek-pricing Area -->
+		<!--==================================================-->
 
 
-	<!-- <div class="pricing-area">
+		<!-- <div class="pricing-area">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-7">
@@ -1460,99 +1465,100 @@
 
 
 
-	<!--==================================================-->
-	<!-- end solutek-pricing Area -->
-	<!--==================================================-->
+		<!--==================================================-->
+		<!-- end solutek-pricing Area -->
+		<!--==================================================-->
 
 
 
-	<!--==================================================-->
-	<!-- Start solutek testimonial Area -->
-	<!--==================================================-->
+		<!--==================================================-->
+		<!-- Start solutek testimonial Area -->
+		<!--==================================================-->
 
-	<div class="testimonial-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="section-title text-center">
-						<h5 class="section-sub-title">TESTIMONIALS</h5>
-						<h1 class="section-main-title">What Our Clients <span>Say</span></h1>
-					</div>
-				</div>
+		<div class="testimonial-area">
+			<div class="container">
 				<div class="row">
-					<div class="testi_list owl-carousel">
-						<div class="col-lg-12 col-md-12">
-							<div class="testi-box">
-								<div class="testi-single-box">
-									<div class="testi-icon">
-										<img src="assets/images/testi1.png" alt="testi1">
-									</div>
-									<div class="testi-content">
-										<p class="testi-text">paradigms. Monotonectally extend open-source
-											mvia competitive methods of empowerment dri
-											revolutionize stand- business</p>
-										<!-- <ul class="testi-rating">
+					<div class="col-lg-12">
+						<div class="section-title text-center">
+							<h5 class="section-sub-title">TESTIMONIALS</h5>
+							<h1 class="section-main-title">What Our Clients <span>Say</span></h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="testi_list owl-carousel">
+							<div class="col-lg-12 col-md-12">
+								<div class="testi-box">
+									<div class="testi-single-box">
+										<div class="testi-icon">
+											<img src="assets/images/testi1.png" alt="testi1">
+										</div>
+										<div class="testi-content">
+											<p class="testi-text">paradigms. Monotonectally extend open-source
+												mvia competitive methods of empowerment dri
+												revolutionize stand- business</p>
+											<!-- <ul class="testi-rating">
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 										</ul> -->
-										<h3 class="testi-title"><span>DEVELOPER</span></h3>
+											<h3 class="testi-title"><span>DEVELOPER</span></h3>
+										</div>
 									</div>
-								</div>
-								<div class="testi-author">
-									<img src="assets/images/testimonialcompanyicon.png" alt="testi4">
+									<div class="testi-author">
+										<img src="assets/images/testimonialcompanyicon.png" alt="testi4">
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-12 col-md-12">
-							<div class="testi-box">
-								<div class="testi-single-box">
-									<div class="testi-icon">
-										<img src="assets/images/testi1.png" alt="testi1">
-									</div>
-									<div class="testi-content">
-										<p class="testi-text">paradigms. Monotonectally extend open-source
-											mvia competitive methods of empowerment dri
-											revolutionize stand- business</p>
-										<!-- <ul class="testi-rating">
+							<div class="col-lg-12 col-md-12">
+								<div class="testi-box">
+									<div class="testi-single-box">
+										<div class="testi-icon">
+											<img src="assets/images/testi1.png" alt="testi1">
+										</div>
+										<div class="testi-content">
+											<p class="testi-text">paradigms. Monotonectally extend open-source
+												mvia competitive methods of empowerment dri
+												revolutionize stand- business</p>
+											<!-- <ul class="testi-rating">
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 										</ul> -->
-										<h3 class="testi-title"><span>DEVELOPER</span></h3>
+											<h3 class="testi-title"><span>DEVELOPER</span></h3>
+										</div>
 									</div>
-								</div>
-								<div class="testi-author">
-									<img src="assets/images/testimonialcompanyicon.png" alt="testi4">
+									<div class="testi-author">
+										<img src="assets/images/testimonialcompanyicon.png" alt="testi4">
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-12 col-md-12">
-							<div class="testi-box">
-								<div class="testi-single-box">
-									<div class="testi-icon">
-										<img src="assets/images/testi1.png" alt="testi1">
-									</div>
-									<div class="testi-content">
-										<p class="testi-text">paradigms. Monotonectally extend open-source
-											mvia competitive methods of empowerment dri
-											revolutionize stand- business</p>
-										<!-- <ul class="testi-rating">
+							<div class="col-lg-12 col-md-12">
+								<div class="testi-box">
+									<div class="testi-single-box">
+										<div class="testi-icon">
+											<img src="assets/images/testi1.png" alt="testi1">
+										</div>
+										<div class="testi-content">
+											<p class="testi-text">paradigms. Monotonectally extend open-source
+												mvia competitive methods of empowerment dri
+												revolutionize stand- business</p>
+											<!-- <ul class="testi-rating">
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 											<li><i class="bi bi-star-fill"></i></li>
 										</ul> -->
-										<h3 class="testi-title"><span>DEVELOPER</span></h3>
+											<h3 class="testi-title"><span>DEVELOPER</span></h3>
+										</div>
 									</div>
-								</div>
-								<div class="testi-author">
-									<img src="assets/images/testimonialcompanyicon.png" alt="testi4">
+									<div class="testi-author">
+										<img src="assets/images/testimonialcompanyicon.png" alt="testi4">
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1560,25 +1566,24 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
 
 
-	<!--==================================================-->
-	<!-- end solutek testimonial Area -->
-	<!--==================================================-->
+		<!--==================================================-->
+		<!-- end solutek testimonial Area -->
+		<!--==================================================-->
 
 
 
 
 
-	<!--==================================================-->
-	<!-- Start solutek contact Area -->
-	<!--==================================================-->
+		<!--==================================================-->
+		<!-- Start solutek contact Area -->
+		<!--==================================================-->
 
 
-	<!-- <div class="contact-area" id="contact-us"> -->
-	<!-- <div class="container">
+		<!-- <div class="contact-area" id="contact-us"> -->
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-7">
 					<div class="section-title text-left">
@@ -1633,9 +1638,9 @@
 				</div>
 			</div>
 		</div> -->
-	<!-- </div> -->
+		<!-- </div> -->
 
-	<div class="contact-areas" id="contact-us">
+		<!-- <div class="contact-areas" id="contact-us">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-7">
@@ -1732,18 +1737,18 @@
 													<option value="1">Assets Management System</option>
 													<option value="1">Leave Management System</option>
 													<option value="1">Timesheet</option>
-													<!-- <option value="2">Tango Chat</option> -->
-													<!-- <option value="3">Tango Design</option> -->
-													<!-- <option value="4">Tango Code</option> -->
-													<!-- <option value="5">Tango Plan</option> -->
-													<!-- <option value="6">Tango Test</option> -->
+													<option value="2">Tango Chat</option>
+													<option value="3">Tango Design</option>
+													<option value="4">Tango Code</option>
+													<option value="5">Tango Plan</option>
+													<option value="6">Tango Test</option>
 												</optgroup>
 												<optgroup label="Services">
 													<option value="7">Oracle Apex</option>
 													<option value="8">SAP services</option>
 													<option value="9">GenAI Embed</option>
 												</optgroup>
-												<!-- <optgroup label="Training">
+												<optgroup label="Training">
 													<option value="10">Basic Training</option>
 													<option value="11">Advance Training</option>
 												</optgroup>
@@ -1751,7 +1756,7 @@
 													<option value="10">Implement of Gen AI for companies</option>
 													<option value="11">UI/UX Template</option>
 												</optgroup>
-												<option value="12">Others</option> -->
+												<option value="12">Others</option>
 											</select>
 
 										</div>
@@ -1769,35 +1774,116 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
-
-
-
-	<!--==================================================-->
-	<!-- end solutek contact Area -->
-	<!--==================================================-->
-
-
-
-
-
-
-	<!--==================================================-->
-	<!-- Start solutek blog Area -->
-	<!--==================================================-->
-
-	<div class="blog-area style-grid">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-6">
-					<div class="section-title text-left">
-						<h5 class="section-sub-title">Latest Blog</h5>
-						<h1 class="section-main-title" style="font-size: larger;">Read The Latest Articles from</h1>
-						<h1 class="section-main-title">Our <span>Blog Post </span></h1>
+		<div class="bg-contact100" style="background-image: url('images/bg-01.jpg');">
+			<div class="container-contact100">
+				<div class="wrap-contact100">
+					<div class="contact100-pic js-tilt" data-tilt>
+						<img src="assets/images/img-01-colourchangedlarge.webp" alt="IMG">
 					</div>
+
+					<form class="contact100-form validate-form">
+						<span class="contact100-form-title">
+							GET IN TOUCH WITH US
+						</span>
+
+						<div class="wrap-input100 validate-input" data-validate="Name is required">
+							<input class="input100" type="text" name="name" placeholder="Name">
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="wrap-input100 validate-input" data-validate="Number is required">
+							<input class="input100" type="text" name="number" placeholder="Number">
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-phone-alt" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="wrap-input100 validate-input">
+							<select class="form-select" aria-label="Default select example">
+								<option selected>Choose our Product</option>
+								<optgroup label="Products">
+									<option value="1">Ticketing Tool</option>
+									<option value="1">Project Management System</option>
+									<option value="1">Assets Management System</option>
+									<option value="1">Leave Management System</option>
+									<option value="1">Timesheet</option>
+								</optgroup>
+								<!-- <optgroup label="Services">
+									<option value="7">Oracle Apex</option>
+									<option value="8">SAP services</option>
+									<option value="9">GenAI Embed</option>
+								</optgroup> -->
+							</select>
+						</div>
+						<div class="wrap-input100 validate-input">
+							<select class="form-select" aria-label="Default select example">
+								<option selected>Choose our Services</option>
+								<!-- <optgroup label="Products">
+									<option value="1">Ticketing Tool</option>
+									<option value="1">Project Management System</option>
+									<option value="1">Assets Management System</option>
+									<option value="1">Leave Management System</option>
+									<option value="1">Timesheet</option>
+								</optgroup> -->
+								<optgroup label="Services">
+									<option value="7">Oracle Apex</option>
+									<option value="8">SAP services</option>
+									<option value="9">GenAI Embed</option>
+								</optgroup>
+							</select>
+						</div>
+						<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+							<input class="input100" type="text" name="email" placeholder="Email">
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+
+						<div class="wrap-input100 validate-input" data-validate="Message is required">
+							<textarea class="input100" name="message" placeholder="Message"></textarea>
+							<span class="focus-input100"></span>
+						</div>
+
+						<div class="container-contact100-form-btn">
+							<button class="contact100-form-btn">
+								Send Message
+							</button>
+						</div>
+					</form>
 				</div>
-				<!-- <div class="col-lg-6">
+			</div>
+		</div>
+
+
+		<!--==================================================-->
+		<!-- end solutek contact Area -->
+		<!--==================================================-->
+
+
+
+
+
+
+		<!--==================================================-->
+		<!-- Start solutek blog Area -->
+		<!--==================================================-->
+
+		<div class="blog-area style-grid">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="section-title text-left">
+							<h5 class="section-sub-title">Latest Blog</h5>
+							<h1 class="section-main-title" style="font-size: larger;">Read The Latest Articles from</h1>
+							<h1 class="section-main-title">Our <span>Blog Post </span></h1>
+						</div>
+					</div>
+					<!-- <div class="col-lg-6">
 				<div class="project-right">
 					<div class="solutek-btn">
 						<a href='/blog-grid'>VIEW  all post
@@ -1809,60 +1895,66 @@
 					</div>
 				</div>
 			</div> -->
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="single-blog-box">
-						<div class="single-blog-thumb">
-							<img src="assets/images/blog1thumb.png" alt="thumb">
-						</div>
-						<div class="blog-box-content">
-						   <div class="meta-blog">
-							  <a><span><i class="far fa-user"></i>Name</span></a>
-							  <p><span><img src="assets/images/inner/grid-calen.png" alt="icon"></span>January 5, 2024</p>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="single-blog-box">
+							<div class="single-blog-thumb">
+								<img src="assets/images/blog1thumb.png" alt="thumb">
 							</div>
-							<h3 style="font-size: larger; font-weight: 500; text-align: left;">Decentralized Finance (DeFi): Revolutionizing the Financial Landscape</h3>
-							<div class="blog-button">
-								<a href='blogsection.html'>READ MORE<i class="bi bi-arrow-right"></i></a>
+							<div class="blog-box-content">
+								<div class="meta-blog">
+									<a><span><i class="far fa-user"></i>Name</span></a>
+									<p><span><img src="assets/images/inner/grid-calen.png" alt="icon"></span>January 5,
+										2024</p>
+								</div>
+								<h3 style="font-size: larger; font-weight: 500; text-align: left;">Decentralized Finance
+									(DeFi): Revolutionizing the Financial Landscape</h3>
+								<div class="blog-button">
+									<a href='blogsection.html'>READ MORE<i class="bi bi-arrow-right"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-blog-box">
-						<div class="single-blog-thumb">
-							<img src="assets/images/blog2thumb.png" alt="thumb">
-						</div>
-						<div class="blog-box-content">
-						   <div class="meta-blog">
-							  <a><span><i class="far fa-user"></i>Name</span></a>
-							  <p><span><img src="assets/images/inner/grid-calen.png" alt="icon"></span>February 10, 2024</p>
+					<div class="col-lg-4 col-md-6">
+						<div class="single-blog-box">
+							<div class="single-blog-thumb">
+								<img src="assets/images/blog2thumb.png" alt="thumb">
 							</div>
-							<h3 style="font-size: larger; font-weight: 500; text-align: left;">Unleashing the Power of Oracle APEX for Web Development</h3>
-							<div class="blog-button">
-								<a href='blogsection.html'>READ MORE<i class="bi bi-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-blog-box">
-						<div class="single-blog-thumb">
-							<img src="assets/images/blog3thumb.png" alt="thumb">
-						</div>
-						<div class="blog-box-content">
-						   <div class="meta-blog">
-							  <a><span><i class="far fa-user"></i>Name</span></a>
-							  <p><span><img src="assets/images/inner/grid-calen.png" alt="icon"></span>March 15, 2024</p>
-							</div>
-							<h3 style="font-size: larger; font-weight: 500; text-align: left;">Unleashing the Potential: The Benefits of Managed Software Services</h3>
-							<div class="blog-button">
-								<a href='blogsection.html'>READ MORE<i class="bi bi-arrow-right"></i></a>
+							<div class="blog-box-content">
+								<div class="meta-blog">
+									<a><span><i class="far fa-user"></i>Name</span></a>
+									<p><span><img src="assets/images/inner/grid-calen.png" alt="icon"></span>February
+										10, 2024</p>
+								</div>
+								<h3 style="font-size: larger; font-weight: 500; text-align: left;">Unleashing the Power
+									of Oracle APEX for Web Development</h3>
+								<div class="blog-button">
+									<a href='blogsection.html'>READ MORE<i class="bi bi-arrow-right"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- <div class="col-lg-4 col-md-6">
+					<div class="col-lg-4 col-md-6">
+						<div class="single-blog-box">
+							<div class="single-blog-thumb">
+								<img src="assets/images/blog3thumb.png" alt="thumb">
+							</div>
+							<div class="blog-box-content">
+								<div class="meta-blog">
+									<a><span><i class="far fa-user"></i>Name</span></a>
+									<p><span><img src="assets/images/inner/grid-calen.png" alt="icon"></span>March 15,
+										2024</p>
+								</div>
+								<h3 style="font-size: larger; font-weight: 500; text-align: left;">Unleashing the
+									Potential: The Benefits of Managed Software Services</h3>
+								<div class="blog-button">
+									<a href='blogsection.html'>READ MORE<i class="bi bi-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-lg-4 col-md-6">
 					<div class="single-blog-box">
 						<div class="single-blog-thumb">
 							<img src="assets/images/inner/blog-grid4.png" alt="thumb">
@@ -1879,47 +1971,47 @@
 						</div>
 					</div>
 				</div> -->
-			</div>
-		</div>
-
-
-
-
-	<!--==================================================-->
-	<!-- end solutek blog Area -->
-	<!--==================================================-->
-
-
-
-
-
-
-	<!--==================================================-->
-	<!-- Start solutek address Area -->
-	<!--==================================================-->
-
-
-	<div class="address-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<div class="address-box mb-2">
-						<div class="address-icon">
-							<img src="assets/images/address1.png" alt="address1">
-						</div>
-						<div class="address-title">
-							<h3>Elevating Customer Experience.</h3>
-						</div>
-					</div>
 				</div>
-				<div class="col-lg-6 col-md-12">
-					<form>
-						<div class="form-field2">
-							<input type="email" name="EMAIL" placeholder="Enter Your E-mail" required="">
-							<button class="subscribe-button" type="submit"><i class="bi bi-send"></i></button>
+			</div>
+
+
+
+
+			<!--==================================================-->
+			<!-- end solutek blog Area -->
+			<!--==================================================-->
+
+
+
+
+
+
+			<!--==================================================-->
+			<!-- Start solutek address Area -->
+			<!--==================================================-->
+
+
+			<div class="address-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-12">
+							<div class="address-box mb-2">
+								<div class="address-icon">
+									<img src="assets/images/address1.png" alt="address1">
+								</div>
+								<div class="address-title">
+									<h3>Elevating Customer Experience.</h3>
+								</div>
+							</div>
 						</div>
-					</form>
-					<!-- <div class="address-box2">
+						<div class="col-lg-6 col-md-12">
+							<form>
+								<div class="form-field2">
+									<input type="email" name="EMAIL" placeholder="Enter Your E-mail" required="">
+									<button class="subscribe-button" type="submit"><i class="bi bi-send"></i></button>
+								</div>
+							</form>
+							<!-- <div class="address-box2">
 					<div class="address-icon">
 						<img src="assets/images/address2.png" alt="address1">
 					</div>
@@ -1932,41 +2024,44 @@
 						</a>
 					</div>
 				</div> -->
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
 
 
 
 
-	<!--==================================================-->
-	<!-- end solutek address Area -->
-	<!--==================================================-->
-
+			<!--==================================================-->
+			<!-- end solutek address Area -->
+			<!--==================================================-->
 
 
 
 
 
-	<!--==================================================-->
-	<!-- Start solutek Footer Area -->
-	<!--==================================================-->
 
-	<div class="footer-area">
-		<div class="container">
-			<div class="row footer">
-				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="footer-widget">
-						<div class="footer-logo">
-							<a href='(index).html'><img src="assets/images/logo 1.png"
-									style="border: 0px  ; width: 165px; height: 75px;" alt="footer-logo"></a>
-						</div>
-						<p class="footer-widget-text" style="text-align: justify;">Welcome to Vibhathi Labs, where we blend innovation with
-							efficiency through Oracle APEX Low Code No Code solutions. Our team of tech wizards combines
-							their expertise with a dash of wit to deliver streamlined development and unleash the power
-							of your ideas</p>
-						<!-- <div class="footer-social">
+			<!--==================================================-->
+			<!-- Start solutek Footer Area -->
+			<!--==================================================-->
+
+			<div class="footer-area">
+				<div class="container">
+					<div class="row footer">
+						<div class="col-lg-4 col-md-6 col-sm-6">
+							<div class="footer-widget">
+								<div class="footer-logo">
+									<a href='(index).html'><img src="assets/images/logo 1.png"
+											style="border: 0px  ; width: 165px; height: 75px;" alt="footer-logo"></a>
+								</div>
+								<p class="footer-widget-text" style="text-align: justify;">Welcome to Vibhathi Labs,
+									where we blend innovation with
+									efficiency through Oracle APEX Low Code No Code solutions. Our team of tech wizards
+									combines
+									their expertise with a dash of wit to deliver streamlined development and unleash
+									the power
+									of your ideas</p>
+								<!-- <div class="footer-social">
 								<h3 class="text-white mb-4">Follow Us</h3>
 								<div class="footer-widget-social">
 									<a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -1978,51 +2073,53 @@
 									<img src="assets/images/iso-27001.png" style=" width: auto; height: 140px;  margin-left: -200px;">
 								</div>
 							</div> -->
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-6 col-sm-6">
-					<div class="footer-widget left">
-						<div class="widget-title">
-							<h2>Services</h2>
+							</div>
 						</div>
-						<ul>
-							<li><a href='oracelapexdetail.html'>Oracle APEX</a></li>
-							<!-- <li><a href='defidevopdetail.html'>DeFi Development</a></li> -->
-							<li><a href='sapservicesdetail.html'>SAP Services</a></li>
-							<!-- <li><a href='salesforcedetail.html'>Salesforce</a></li> -->
-							<!-- <li><a href='fullstackdevopdetail.html'>Full-Stack Development</a></li> -->
-							<li><a href="https://www.genaiembed.ai/">GenAI Embed</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="footer-social">
-						<h3 class="text-white mb-4">Follow Us</h3>
-						<div class="footer-widget-social">
-							<a href="#"><i class="fab fa-facebook-f"></i></a>
-							<a href="#"><i class="fab fa-twitter"></i></a>
-							<a href="https://www.linkedin.com/company/vibhathi-labs/"><i
-									class="fab fa-linkedin-in"></i></a>
-							<a href="#"><i class="fab fa-youtube"></i></a>
+						<div class="col-lg-2 col-md-6 col-sm-6">
+							<div class="footer-widget left">
+								<div class="widget-title">
+									<h2>Services</h2>
+								</div>
+								<ul>
+									<li><a href='oracelapexdetail.html'>Oracle APEX</a></li>
+									<!-- <li><a href='defidevopdetail.html'>DeFi Development</a></li> -->
+									<li><a href='sapservicesdetail.html'>SAP Services</a></li>
+									<!-- <li><a href='salesforcedetail.html'>Salesforce</a></li> -->
+									<!-- <li><a href='fullstackdevopdetail.html'>Full-Stack Development</a></li> -->
+									<li><a href="https://www.genaiembed.ai/">GenAI Embed</a></li>
+								</ul>
+							</div>
 						</div>
-						<div class="circle" style="align-items: center; justify-content: center; margin-top: 30px;">
-							<img src="assets/images/iso-27001.png" style=" width: auto; height: 140px;">
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="footer-social">
+								<h3 class="text-white mb-4">Follow Us</h3>
+								<div class="footer-widget-social">
+									<a href="#"><i class="fab fa-facebook-f"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="https://www.linkedin.com/company/vibhathi-labs/"><i
+											class="fab fa-linkedin-in"></i></a>
+									<a href="#"><i class="fab fa-youtube"></i></a>
+								</div>
+								<div class="circle"
+									style="align-items: center; justify-content: center; margin-top: 30px;">
+									<img src="assets/images/iso-27001.png" style=" width: auto; height: 140px;">
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="footer-widget-newsletter">
-						<div class="widget-title">
-							<h2>GET IN TOUCH</h2>
-						</div>
-						<h4 style="color: aliceblue;">USA</h4>
-						<p class="newsletter-text">Vibhathi Labs Inc.
-							15 River Rd Suite 15B, Wilton, CT 06897</p>
-						<h4 style="color: aliceblue;">INDIA</h4>
-						<p class="newsletter-text">Vibhathi Labs India Private Ltd,
-							Old Door No. 23/6 & 24/6, New Door No. 37/6, Chamiers Tower, 1st Floor, West Wing, Chamiers
-							Road, Teynampet, Chennai - 600018, Tamilnadu.</p>
-						<!-- <div class="Subscribe-form2">
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="footer-widget-newsletter">
+								<div class="widget-title">
+									<h2>GET IN TOUCH</h2>
+								</div>
+								<h4 style="color: aliceblue;">USA</h4>
+								<p class="newsletter-text">Vibhathi Labs Inc.
+									15 River Rd Suite 15B, Wilton, CT 06897</p>
+								<h4 style="color: aliceblue;">INDIA</h4>
+								<p class="newsletter-text">Vibhathi Labs India Private Ltd,
+									Old Door No. 23/6 & 24/6, New Door No. 37/6, Chamiers Tower, 1st Floor, West Wing,
+									Chamiers
+									Road, Teynampet, Chennai - 600018, Tamilnadu.</p>
+								<!-- <div class="Subscribe-form2">
 								<form>
 									<div class="form-field2">
 										<input type="email" name="EMAIL" placeholder="Enter Your E-mail" required="">
@@ -2030,129 +2127,129 @@
 									</div>
 								</form>
 							</div> -->
+							</div>
+						</div>
+					</div>
+					<div class="row copyright">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="-copyright-text">
+								<p>© 2025 Vibhathi Labs Inc. All Rights Reserved.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="copyright-list">
+								<ul>
+									<li><a href='/'>Privacy Policy</a></li>
+									<li><a href='/'>Supports</a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row copyright">
-				<div class="col-lg-6 col-md-6 col-sm-6">
-					<div class="-copyright-text">
-						<p>© 2025 Vibhathi Labs Inc. All Rights Reserved.</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6">
-					<div class="copyright-list">
-						<ul>
-							<li><a href='/'>Privacy Policy</a></li>
-							<li><a href='/'>Supports</a></li>
-						</ul>
+
+			<!--==================================================-->
+			<!-- end solutek Footer Area -->
+			<!--==================================================-->
+
+			<!--Start of Tawk.to Script-->
+			<script type="text/javascript">
+				var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+				(function () {
+					var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+					s1.async = true;
+					s1.src = 'https://embed.tawk.to/677ba442af5bfec1dbe741f5/1igtfj9uf';
+					s1.charset = 'UTF-8';
+					s1.setAttribute('crossorigin', '*');
+					s0.parentNode.insertBefore(s1, s0);
+				})();
+			</script>
+			<!--End of Tawk.to Script-->
+
+
+
+
+
+			<!--==================================================-->
+			<!-- Start scrollup section Area -->
+			<!--==================================================-->
+			<!-- scrollup section -->
+			<div class="scroll-area">
+				<div class="top-wrap">
+					<div class="go-top-btn-wraper">
+						<div class="go-top go-top-button active">
+							<i class="fas fa-arrow-up"></i>
+							<i class="fas fa-arrow-up"></i>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<!--==================================================-->
-	<!-- end solutek Footer Area -->
-	<!--==================================================-->
-
-		<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-	(function(){
-	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-	s1.async=true;
-	s1.src='https://embed.tawk.to/677ba442af5bfec1dbe741f5/1igtfj9uf';
-	s1.charset='UTF-8';
-	s1.setAttribute('crossorigin','*');
-	s0.parentNode.insertBefore(s1,s0);
-	})();
-	</script>
-	<!--End of Tawk.to Script-->
+			<!--==================================================-->
+			<!-- Start scrollup section Area -->
+			<!--==================================================-->
 
 
 
+			<!-- jquery js -->
+			<script src="assets/js/vendor/jquery-3.6.2.min.js"></script>
+			<!-- bootstrap js -->
+			<script src="assets/js/bootstrap.min.js"></script>
+			<!-- carousel js -->
+			<script src="assets/js/owl.carousel.min.js"></script>
+			<!-- counterup js -->
+			<script src="assets/js/jquery.counterup.min.js"></script>
+			<!-- waypoints js -->
+			<script src="assets/js/waypoints.min.js"></script>
+			<!-- wow js -->
+			<script src="assets/js/wow.js"></script>
+			<!-- imagesloaded js -->
+			<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+			<!-- venobox js -->
+			<script src="venobox/venobox.js"></script>
+			<!--  animated-text js -->
+			<script src="assets/js/animated-text.js"></script>
+			<!-- venobox min js -->
+			<script src="venobox/venobox.min.js"></script>
+			<!-- isotope js -->
+			<script src="assets/js/isotope.pkgd.min.js"></script>
+			<!-- jquery meanmenu js -->
+			<script src="assets/js/jquery.meanmenu.js"></script>
+			<!-- jquery scrollup js -->
+			<script src="assets/js/jquery.scrollUp.js"></script>
+			<script src="assets/js/jquery.barfiller.js"></script>
+			<script src="assets/js/typed.js"></script>
+			<!-- jquery js -->
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script src="assets/js/vanilla-tilt.min.js"></script>
+			<!-- partial -->
 
+			<!-- theme js -->
+			<script src="assets/js/theme.js"></script>
 
-	<!--==================================================-->
-	<!-- Start scrollup section Area -->
-	<!--==================================================-->
-	<!-- scrollup section -->
-	<div class="scroll-area">
-		<div class="top-wrap">
-			<div class="go-top-btn-wraper">
-				<div class="go-top go-top-button active">
-					<i class="fas fa-arrow-up"></i>
-					<i class="fas fa-arrow-up"></i>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- Start scrollup section Area -->
-	<!--==================================================-->
+			<script>
+				$(document).ready(function () {
+					// Initialize Owl Carousel
+					var $carousel = $('.hero-active').owlCarousel({
+						items: 1,
+						loop: true,
+						autoplay: true,
+						autoplayTimeout: 3000,
+						autoplayHoverPause: false,
+						nav: false,
+						dots: true
+					});
 
+					// Next button functionality
+					$('#next-btn').click(function () {
+						$carousel.trigger('next.owl.carousel');
+					});
 
-
-	<!-- jquery js -->
-	<script src="assets/js/vendor/jquery-3.6.2.min.js"></script>
-	<!-- bootstrap js -->
-	<script src="assets/js/bootstrap.min.js"></script>
-	<!-- carousel js -->
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<!-- counterup js -->
-	<script src="assets/js/jquery.counterup.min.js"></script>
-	<!-- waypoints js -->
-	<script src="assets/js/waypoints.min.js"></script>
-	<!-- wow js -->
-	<script src="assets/js/wow.js"></script>
-	<!-- imagesloaded js -->
-	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-	<!-- venobox js -->
-	<script src="venobox/venobox.js"></script>
-	<!--  animated-text js -->
-	<script src="assets/js/animated-text.js"></script>
-	<!-- venobox min js -->
-	<script src="venobox/venobox.min.js"></script>
-	<!-- isotope js -->
-	<script src="assets/js/isotope.pkgd.min.js"></script>
-	<!-- jquery meanmenu js -->
-	<script src="assets/js/jquery.meanmenu.js"></script>
-	<!-- jquery scrollup js -->
-	<script src="assets/js/jquery.scrollUp.js"></script>
-	<script src="assets/js/jquery.barfiller.js"></script>
-	<script src="assets/js/typed.js"></script>
-	<!-- jquery js -->
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script src="assets/js/vanilla-tilt.min.js"></script>
-	<!-- partial -->
-
-	<!-- theme js -->
-	<script src="assets/js/theme.js"></script>
-
-	<script>
-        $(document).ready(function () {
-            // Initialize Owl Carousel
-            var $carousel = $('.hero-active').owlCarousel({
-                items: 1,
-                loop: true,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: false,
-                nav: false,
-                dots: true
-            });
-
-            // Next button functionality
-            $('#next-btn').click(function () {
-                $carousel.trigger('next.owl.carousel');
-            });
-
-            // Previous button functionality
-            $('#prev-btn').click(function () {
-                $carousel.trigger('prev.owl.carousel');
-            });
-        });
-    </script>
+					// Previous button functionality
+					$('#prev-btn').click(function () {
+						$carousel.trigger('prev.owl.carousel');
+					});
+				});
+			</script>
 
 
 
