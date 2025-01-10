@@ -958,7 +958,7 @@ h1.section-main-title2 {
 =======================================*/
 
 .blog-area {
-  padding: 60px 0 0;
+  padding: 30px 0 0;
   background: #f4f4f4;
 }
 
@@ -1824,7 +1824,7 @@ ul.pricing-list li i {
 
 .faq-area {
   background: #f4f4f4;
-  padding: 30px;
+  padding: 15px;
   position: relative;
   z-index: 1;
 }
@@ -2661,6 +2661,7 @@ p.footer-widget-text {
   position: relative;
   z-index: 1;
   transition: 0.5s;
+  font-size: 13px;
 }
 
 .footer-widget.left ul li a::before {
@@ -3906,9 +3907,9 @@ ul.list-style-one li a:hover {
   height: 70px;
   line-height: 70px;
   border-radius: 100%;
-  background-color: #2f3e7e;
+  background-color: #cfd8dc;
   text-align: center;
-  color: #7dc243;
+  color: #000000;
   font-size: 32px;
   transform: rotate(-45deg);
 }
@@ -3957,11 +3958,11 @@ ul.list-style-one li a:hover {
   width: 55px;
   height: 55px;
   line-height: 55px;
-  background-color: #cfd8dc;
+  background-color: #cfd8dc;;
   display: inline-block;
   text-align: center;
   border-radius: 10px 0px 10px 10px;
-  color: #05081e;
+  color: #000000;
   font-size: 22px;
   transition: 0.5s;
 }
@@ -3975,18 +3976,18 @@ ul.list-style-one li a:hover {
   width: 55px;
   height: 55px;
   line-height: 55px;
-  background-color: #cfd8dc;
+  background: #7dc243;
   display: inline-block;
   text-align: center;
   border-radius: 10px 0px 10px 10px;
-  color: #05081e;
+  color: #fff;
   font-size: 22px;
   transition: 0.5s;
 }
 
 .project-area.styl-two .owl-next:hover {
-  background-color: #cfd8dc;
-  color: #05081e;
+  background: #7dc243;
+  color: #fff;
 }
 
 .project-area.styl-two .owl-nav {
@@ -5898,7 +5899,7 @@ li.list-arrow {
  <!-- Start solutek services details area css-->
 =========================================================---*/
 .services-details-area {
-  padding: 60px 0 60px;
+  padding: 60px 0 15px;
   background-color: #f4f4f4;
 }
 
@@ -5912,7 +5913,7 @@ li.list-arrow {
 
 h4.services-details-title {
   margin-bottom: 10px;
-  font-size: 28px;
+  font-size: 23px;
   color: #050a1e;
   font-weight: 700;
 }
@@ -6073,6 +6074,8 @@ p.services-details-desc {
   transition: 0.5s;
   border: 2px solid #ffff;
   text-transform: uppercase;
+  font-size: 15px;
+
 }
 
 .widget-category ul li a:hover {
