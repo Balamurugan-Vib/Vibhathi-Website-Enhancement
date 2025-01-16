@@ -1657,10 +1657,10 @@ h3.project-title a:hover {
 .brand-area {
   background: #7dc243;
   padding: 41px 0;
-  margin: 0 49px 0;
+  margin: 0 49px 20px;
   left: 0;
   right: 0;
-  border-radius: 0 0 50px 50px;
+  border-radius: 0 0 0px 0px;
 }
 
 .brand-box {
@@ -1850,7 +1850,7 @@ h3.faq-title {
   color: #050a1e;
   font-weight: 600;
   font-family: "Poppins";
-  margin: 0;
+  margin: 10px;
 }
 
 h3.faq-title span {
@@ -2625,7 +2625,7 @@ p.footer-widget-text {
   font-weight: 400;
   font-family: "Poppins";
   margin: 0;
-  padding: 38px 0 68px;
+  padding: 47px 0 68px;
 }
 
 .footer-widget-social a i {
@@ -2682,12 +2682,12 @@ p.footer-widget-text {
 p.newsletter-text {
   opacity: 0.6;
   font-size: 13px;
-  line-height: 26px;
+  line-height: 24px;
   color: #ffffff;
   font-weight: 400;
   font-family: "Poppins";
   margin: 0;
-  padding: 0 0 38px;
+  padding: 0px 0 6px;
 }
 
 .form-field2 input {
@@ -3749,7 +3749,7 @@ ul.list-style-one li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0 50px;
+  margin: 20px 50px;
   border-radius: 40px 40px 0px 0px;
   position: relative;
 }
@@ -5899,7 +5899,7 @@ li.list-arrow {
  <!-- Start solutek services details area css-->
 =========================================================---*/
 .services-details-area {
-  padding: 60px 0 15px;
+  padding: 25px 0 15px;
   background-color: #f4f4f4;
 }
 
@@ -5913,7 +5913,7 @@ li.list-arrow {
 
 h4.services-details-title {
   margin-bottom: 10px;
-  font-size: 23px;
+  font-size: 20px;
   color: #050a1e;
   font-weight: 700;
 }
@@ -6019,8 +6019,19 @@ p.services-details-desc {
   display: none;
   font-size: 16px;
   color: #7a7a7a;
-  padding: 25px 0 10px 30px;
-  margin: 0;
+  padding: 5px 0 5px 0px;
+  margin: 20px;
+}
+
+.accordion a::before {
+  
+  display: inline-block;
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.accordion a.active::before {
+  content: ' ';
 }
 
 /*widget-sidber css*/
@@ -6503,7 +6514,7 @@ li.current_menu_item {
 }
 
 .project-details-content h4 {
-  font-size: 30px;
+  font-size: 22px;
   color: #050a1e;
   font-weight: 600;
 }
@@ -6515,19 +6526,19 @@ p.project-details-desc {
 }
 
 .project-details-content h3 {
-  font-size: 28px;
+  font-size: 22px;
   margin-bottom: 20px;
-  margin-top: 54px;
+  margin-top: 40px;
 }
 
 .project-details-list-item h4 {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .project-details-list-item ul li {
   list-style: none;
-  font-size: 17px;
-  line-height: 39px;
+  font-size: 15px;
+  line-height: 32px;
 }
 
 .project-details-list-item ul li i {
@@ -8373,7 +8384,7 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 110px 130px 50px 148px;
+  padding: 30px 130px 50px 130px;
 }
 
 /*------------------------------------------------------------------
@@ -8384,7 +8395,7 @@ iframe {
 }
 
 .contact100-pic img {
-  max-width: 100%;
+  max-width: 140%;
 }
 
 
@@ -8396,12 +8407,13 @@ iframe {
 
 .contact100-form-title {
   display: block;
-  font-family: Montserrat-ExtraBold;
+  font-family: "Poppins";
   font-size: 24px;
   color: #333333;
   line-height: 1.2;
   text-align: left;
   padding-bottom: 36px;
+  font-weight: 600;
 }
 
 input.input100 {
