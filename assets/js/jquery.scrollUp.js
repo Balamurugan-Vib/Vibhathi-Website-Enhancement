@@ -182,3 +182,21 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, 500);
     });
 });
+
+document.querySelectorAll('.accordion a').forEach(anchor => {
+    anchor.addEventListener('click', function () {
+      const content = this.nextElementSibling; 
+      
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+        this.classList.remove('active'); 
+      } else {
+        
+        document.querySelectorAll('.accordion p').forEach(p => p.style.display = 'none');
+        document.querySelectorAll('.accordion a').forEach(a => a.classList.remove('active'));
+        
+        content.style.display = 'block';
+        this.classList.add('active'); 
+      }
+    });
+  });
