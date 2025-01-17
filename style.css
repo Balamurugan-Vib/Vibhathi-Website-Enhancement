@@ -3818,7 +3818,7 @@ ul.list-style-one li a:hover {
   background-position: center center;
   left: 0;
   right: 0;
-
+  z-index: 1;
   transition: 0.5s;
 }
 
@@ -3871,6 +3871,7 @@ ul.list-style-one li a:hover {
   border-radius: 20px 0px 20px 20px;
   opacity: 0;
   transition: 0.5s;
+  z-index: 1;
 }
 
 .project-area.styl-two h4.project-title {
