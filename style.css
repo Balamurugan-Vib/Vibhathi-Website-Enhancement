@@ -625,7 +625,7 @@ h5.section-sub-title::before {
 
 h1.section-main-title {
   font-size: 36px;
-  line-height: 50px;
+  line-height: 20px;
   color: #050a1e;
   font-weight: 700;
   font-family: "Poppins";
@@ -641,7 +641,7 @@ h1.section-main-title span {
 p.section-title-descr {
   width: 84%;
   margin: 0;
-  padding: 9px 0 19px;
+  padding: 25px 0 19px;
   font-size: 13px;
 }
 
@@ -758,6 +758,7 @@ h1.section-main-title2 {
   width: 100%;
   margin: 0;
   padding: 12px 0 0px;
+  line-height: 23px;
 }
 
 .about-section .section-title.text-left {
@@ -1177,7 +1178,7 @@ h3.blog-title-two a:hover {
 =======================================*/
 
 .about-area {
-  padding: 40px 0 0px;
+  padding: 25px 0 0px;
   position: relative;
   z-index: 1;
   margin-top: 0px;
@@ -1186,8 +1187,8 @@ h3.blog-title-two a:hover {
 .about-area::before {
   position: absolute;
   content: "";
-  height: 100%;
-  width: 100%;
+  height: 75%;
+  width: 85%;
   background: url(assets/images/about5.png);
   background-repeat: no-repeat;
   right: -72%;
@@ -6050,10 +6051,11 @@ p.services-details-desc {
 
 .widget-sidber-content h4 {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0 0 46px;
   position: relative;
 }
+
 .widget-sidber-content h4:before {
   position: absolute;
   content: "";
@@ -6090,7 +6092,7 @@ p.services-details-desc {
   transition: 0.5s;
   border: 2px solid #ffff;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
 
 }
 
@@ -8832,6 +8834,8 @@ background-color: #28a745;
 
 .job-details-section h4 {
   margin-bottom: 20px;
+  font-size: 23px;
+  font-weight: 500;
 }
 
 .job-details-section ul {
@@ -8858,4 +8862,49 @@ background-color: #28a745;
   text-align: center;
   margin-left: 10px;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .section-title-head {
+    display: block !important;
+    margin-top: 10px !important;
+  }
+
+  .apply-btn1 {
+    margin-top: 10px !important;
+  }
+}
+
+.job-details-section-sub {
+  margin-left: 20px;
+}
+
+.job-details-section-sub {
+  margin-left: 40px;
+  list-style: disc !important;
+}
+
+.job-details-main {
+  margin-left: 15px;
+  list-style: disc !important;
+}
+
+/*** Section Title ***/
+/* .section-title::before {
+  position: absolute;
+  content: "";
+  width: 296px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background:#7fc241;
+  border-radius: 2px;
+} */
+
+/* jobdetail header captions 20-1-2025 */
+
+h2.jobdetailheader.mb-0 {
+  font-size: 34px;
+  font-weight: 500;
+  font-family: 'Poppins';
 }
