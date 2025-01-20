@@ -292,8 +292,8 @@ h3.blog-title a {
 }
 
 .hero-area.style-three .hero-contant {
-    padding-top: 130px;
-    padding-left: 20px;
+    padding-top: 100px;
+    padding-left: 10px;
 }
 
 .our-service-section .service-thumb {
@@ -3644,7 +3644,12 @@ h3.blog-details-title.two {
 
 h1.section-main-title {
     font-size: 22px;
-    line-height: 35px;
+    line-height: 15px;
+}
+
+.solutek-btn {
+    display: inline-block;
+    margin-bottom: 12px;
 }
 
 p.section-title-descr {
@@ -3901,7 +3906,15 @@ h3.blog-title-two a {
 
 .service-area.style-two h1.section-main-title {
     font-size: 19px;
-    line-height: 35px;
+    line-height: 5px;
+}
+
+.container-contact100{
+    min-height: 0;
+}
+
+.wrap-contact100 {
+    padding: 10px;
 }
 
 .service-area.style-two .single-service-box {
@@ -4221,7 +4234,7 @@ h3.blog-title-two a {
 }
 
 .about-us-thumb {
-    margin-top: 260px;
+    margin-top: 0px;
 }
 
 .project-area.style-two {
