@@ -5141,7 +5141,7 @@ ul.list-style-one li a:hover {
 }
 
 .breadcumb-content h4 {
-  font-size: 51px;
+  font-size: 40px;
   line-height: 26px;
   text-transform: uppercase;
   color: #ffffff;
@@ -6694,7 +6694,7 @@ a.project-details-text {
 <!-- Start solutek blog details css-->
 =========================================================---*/
 .blog-details-area {
-  padding: 119px 0 119px;
+  padding: 40px 0 40px;
 }
 
 .blog-details-thumb {
@@ -6803,7 +6803,7 @@ p.blog-details-desc {
 }
 
 h3.blog-details-title {
-  font-size: 28px;
+  font-size: 26px;
   margin: 54px 0 16px;
 }
 
