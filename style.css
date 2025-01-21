@@ -6285,7 +6285,7 @@ button.icons {
   transition: 0.5s;
   width: 95%;
   display: inline-block;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
   color: #050a1e;
   font-weight: 600;
@@ -6751,6 +6751,7 @@ a.project-details-text {
 h4.blog-details-title {
   font-size: 32px;
   margin: 12px 0 19px;
+  font-weight: 500;
 }
 
 p.blog-details-desc {
