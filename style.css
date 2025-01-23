@@ -624,13 +624,14 @@ h5.section-sub-title::before {
 }
 
 h1.section-main-title {
-  font-size: 36px;
+  font-size: 34px;
   line-height: 20px;
   color: #050a1e;
   font-weight: 500;
   font-family: "Poppins";
   margin: 0;
-  padding-top: 25px;
+  padding-top: 20px;
+  white-space: nowrap;
 }
 
 h1.section-main-title span {
@@ -643,6 +644,7 @@ p.section-title-descr {
   margin: 0;
   padding: 25px 0 19px;
   font-size: 13px;
+  line-height: 20px;
 }
 
 
@@ -1178,7 +1180,7 @@ h3.blog-title-two a:hover {
 =======================================*/
 
 .about-area {
-  padding: 25px 0 0px;
+  padding: 90px 0 0px;
   position: relative;
   z-index: 1;
   margin-top: 0px;
@@ -1198,7 +1200,7 @@ h3.blog-title-two a:hover {
 .about-thumb {
   position: relative;
   z-index: 1;
-  margin-left: -96px;
+  margin-left: -52px;
 }
 
 h4.about-title {
@@ -1265,10 +1267,10 @@ h4.about-title {
   background: #7dc243;
   text-decoration: none;
   padding: 7px 13px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 550;
   position: relative;
   z-index: 1;
   border-radius: 30px;
@@ -1828,11 +1830,13 @@ ul.pricing-list li i {
 =======================================*/
 
 .faq-area {
-  background: #f4f4f4;
+  background: #ffffff;
   padding: 15px;
   position: relative;
-  z-index: 1;
+  z-index: 0;
+  margin: 30px 0px;
 }
+
 
 .faq-shape {
   position: absolute;
@@ -1983,7 +1987,7 @@ a.active {
   text-decoration: none;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.30196078431372547);
-  border: 2px solid #ffffff;
+  border: 2px solid #dbdbdb;
 }
 
 .faq-area .accordion li a.active {
@@ -1997,7 +2001,7 @@ a.active {
 .faq-area .accordion li p {
   padding: 44px 20px 31px 25px;
   color: #646464;
-  background: #fff;
+  background: #f7fff8;
   border-radius: 0 0 15px 15px;
   line-height: 28px;
   position: relative;
@@ -2009,7 +2013,7 @@ a.active {
   content: "";
   height: 1px;
   width: 92%;
-  background: #ebebeb;
+  background: #ffffff;
   left: 32px;
   top: 21px;
 }
@@ -3332,7 +3336,7 @@ ul.list-style-one li a:hover {
 <!-- Start solutek service Area style two  -->
 <!-- =====================================-->*/
 .service-area.style-two {
-  padding-top: 50px;
+  padding-top: 90px;
 }
 
 .service-area.style-two .section-title.text-center {
@@ -3749,7 +3753,7 @@ ul.list-style-one li a:hover {
 <!-- start solutek project Area style-two-->
 <!-- =====================================-->*/
 .project-area.styl-two {
-  padding: 50px 0 0px;
+  padding: 90px 0 0px;
   background: url(assets/images/home-two/project-bg-two.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -3770,7 +3774,7 @@ ul.list-style-one li a:hover {
 }
 
 .project-area.styl-two .section-title.text-left {
-  margin-bottom: 50px;
+  margin-bottom: 33px;
 }
 
 .project-area.styl-two .project-carousel {
@@ -3999,7 +4003,7 @@ ul.list-style-one li a:hover {
 .project-area.styl-two .owl-nav {
   position: absolute;
   right: 10px;
-  top: -118px;
+  top: -92px;
 }
 
 
@@ -4012,14 +4016,14 @@ ul.list-style-one li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 120px 0 116px;
+  padding: 17px 0 39px;
   margin: 0 50px;
   border-radius: 40px;
   position: relative;
 }
 
 .project-area.style-three .section-title.text-left {
-  margin-bottom: 86px;
+  margin-bottom: 56px;
 }
 
 .project-area.style-three .project-single-box {
@@ -5191,7 +5195,7 @@ li.list-arrow {
 /* <!--==================================================--> */
 .about-us-area {
   background: #fff;
-  padding: 0px 0 14px;
+  padding: 30px 0 14px;
   position: relative;
 }
 
@@ -5226,7 +5230,7 @@ li.list-arrow {
 
 .about-us-list ul li span {
   display: inline-block;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 26px;
   color: #050a1e;
   font-weight: 400;
@@ -6581,7 +6585,7 @@ a.project-details-text {
 .blog-area.style-grid .single-blog-box {
   background: #fff;
   border-radius: 15px;
-  padding: 25px 26px 36px;
+  padding: 25px 26px 20px;
   margin-bottom: 30px;
 }
 
@@ -6626,6 +6630,8 @@ a.project-details-text {
 
 .blog-area.style-grid .blog-box-content h3 {
   margin: 0;
+  line-height: 30px;
+  padding-bottom: 20px;
 }
 
 .blog-area.style-grid .blog-box-content h3 a {
@@ -6647,7 +6653,7 @@ a.project-details-text {
   color: #050a1e;
   font-family: "Poppins";
   border-radius: 20px;
-  padding: 7px 35px 7px;
+  padding: 7px 6px 7px;
   position: relative;
   z-index: 1;
   border: 1px solid rgb(122 122 122 / 25%);
@@ -7097,7 +7103,7 @@ p.blog-details-desc.three {
 
 .scroll-area {
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .scroll-area .go-top {
@@ -8362,6 +8368,7 @@ iframe {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-top: 40px;
 }
 
 .container-contact100 {
@@ -8541,7 +8548,7 @@ textarea.input100 {
   height: 50px;
   border-radius: 25px;
   background: #7dc243;
-  font-family: Montserrat-Bold;
+  font-family: 'Poppins';
   font-size: 15px;
   line-height: 1.5;
   color: #fff;
@@ -8908,4 +8915,8 @@ h2.jobdetailheader.mb-0 {
   font-size: 34px;
   font-weight: 500;
   font-family: 'Poppins';
+}
+
+.modifypoints {
+  margin: 19px;
 }
