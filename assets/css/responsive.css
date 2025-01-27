@@ -792,7 +792,7 @@
     }
     
     .solutek_nav_manu {
-        padding: 0px 38px 0;
+        padding: 0px 3px 0;
     }
     
     .solutek_menu > ul > li > a {
@@ -1129,8 +1129,8 @@
     }
     
     .blog-area.style-two .blog-box-content h3 a {
-        font-size: 22px;
-        line-height:34px;
+        font-size: 14px;
+        line-height: 20px;
     }
     
     /* home page three */
@@ -1167,7 +1167,7 @@
     }
     
     .solutek-btn a {
-        padding: 10px 16px;
+        padding: 8px 13px;
         font-size: 14px;
     }
     
@@ -1466,7 +1466,7 @@
     }
     
     .blog-area.style-grid .blog-box-content h3 a {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .recent-widget-content a {
@@ -4018,8 +4018,8 @@
     }
     
     .blog-area.style-two .blog-box-content h3 a {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 20px;
     }
     
     /* home page three */
@@ -4255,7 +4255,7 @@
     }
     
     .breadcumb-content h4 {
-        font-size: 38px;
+        font-size: 35px;
     }
     
     .team-details-area .team-member-title h4 {
