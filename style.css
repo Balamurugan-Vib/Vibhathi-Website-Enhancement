@@ -1191,7 +1191,7 @@ h3.blog-title-two a:hover {
   content: "";
   height: 75%;
   width: 85%;
-  background: url(assets/images/about5.png);
+  /* background: url(assets/images/about5.png); */
   background-repeat: no-repeat;
   right: -72%;
   top: -8%;
@@ -2051,6 +2051,7 @@ p.testi-text {
   margin: 0;
   position: relative;
   z-index: 1;
+  font-size: 15px;
 }
 
 p.testi-text::before {
@@ -5925,7 +5926,7 @@ h4.services-details-title {
   margin-bottom: 10px;
   font-size: 20px;
   color: #050a1e;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 p.services-details-desc {
