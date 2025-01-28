@@ -4426,7 +4426,7 @@ ul.list-style-one li a:hover {
    <!--solutek hero Area style-three-->
 =========================================================---*/
 .hero-area.style-three {
-  height: 600px;
+/*   height: 600px; */
   background: #050a1e;
   margin: 0;
   padding-bottom: 12px;
