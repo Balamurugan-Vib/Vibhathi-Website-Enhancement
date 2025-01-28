@@ -643,8 +643,8 @@ p.section-title-descr {
   width: 84%;
   margin: 0;
   padding: 25px 0 19px;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 
@@ -1253,7 +1253,8 @@ h4.about-title {
 .about-text p {
   width: 92%;
   margin: 0;
-  padding: 0px 0 41px;
+  padding: 0px 0 35px;
+  font-size: 14px;
 }
 
 /* button style */
@@ -1854,10 +1855,10 @@ ul.pricing-list li i {
 /*accordion*/
 
 h3.faq-title {
-  font-size: 28px;
+  font-size: 30px;
   line-height: 36px;
   color: #050a1e;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Poppins";
   margin: 10px;
 }
@@ -1869,6 +1870,7 @@ h3.faq-title span {
 
 p.faq-description {
   padding: 10px 0px;
+  font-size: 16px;
 }
 
 .tab_container {
@@ -4426,7 +4428,7 @@ ul.list-style-one li a:hover {
    <!--solutek hero Area style-three-->
 =========================================================---*/
 .hero-area.style-three {
-/*   height: 600px; */
+  /* height: 600px; */
   background: #050a1e;
   margin: 0;
   padding-bottom: 12px;
@@ -5926,12 +5928,12 @@ h4.services-details-title {
   margin-bottom: 10px;
   font-size: 20px;
   color: #050a1e;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 p.services-details-desc {
   margin-top: 24px;
-  font-size: 17px;
+  font-size: 16px;
   color: #7a7a7a;
 }
 
@@ -6649,12 +6651,12 @@ a.project-details-text {
 
 .blog-area.style-grid .blog-button a {
   display: inline-block;
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
   color: #050a1e;
   font-family: "Poppins";
   border-radius: 20px;
-  padding: 7px 6px 7px;
+  padding: 6px 6px 6px;
   position: relative;
   z-index: 1;
   border: 1px solid rgb(122 122 122 / 25%);
