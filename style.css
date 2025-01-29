@@ -1267,11 +1267,11 @@ h4.about-title {
   display: inline-block;
   background: #7dc243;
   text-decoration: none;
-  padding: 7px 13px;
-  font-size: 10px;
+  padding: 7px 14px;
+  font-size: 12px;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: 550;
+  font-weight: 500;
   position: relative;
   z-index: 1;
   border-radius: 30px;
