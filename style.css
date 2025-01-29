@@ -344,9 +344,9 @@ color: #7dc243;
   font-size: 19px;
   line-height: 30px;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Poppins";
-  width: 91%;
+  /* width: 91%; */
   margin: 0;
   padding: 13px 0 43px;
 }
@@ -1251,10 +1251,11 @@ h4.about-title {
 }
 
 .about-text p {
-  width: 92%;
+  /* width: 92%; */
   margin: 0;
   padding: 0px 0 35px;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 /* button style */
@@ -4495,12 +4496,12 @@ ul.list-style-one li a:hover {
 }
 
 .hero-area.style-three .hero-contant p {
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 25px;
   color: #7a7a7a;
-  width: 100%;
+  /* width: 100%; */
   opacity: 1;
-  padding: 20px 0 20px;
+  padding: 20px 0px;
 }
 
 .hero-area.style-three .solutek-btn {
@@ -8194,6 +8195,7 @@ select.form-select {
     margin-bottom: 9px;
     background-color: #e6e6e6;
     border-radius: 25px;
+    font-family: 'Poppins';
 }
 .bis-faq-contact-form textarea {
   height: 110px;
@@ -8464,7 +8466,7 @@ textarea.input100 {
   display: block;
   width: 100%;
   background: #e6e6e6;
-  font-family: Montserrat-Bold;
+  font-family:"Poppins";
   font-size: 15px;
   line-height: 1.5;
   color: #666666;
