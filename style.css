@@ -6651,12 +6651,12 @@ a.project-details-text {
 
 .blog-area.style-grid .blog-button a {
   display: inline-block;
-  font-size: 13px;
+  font-size: 12px;
   text-transform: uppercase;
   color: #050a1e;
   font-family: "Poppins";
   border-radius: 20px;
-  padding: 6px 6px 6px;
+  padding: 7px 14px;
   position: relative;
   z-index: 1;
   border: 1px solid rgb(122 122 122 / 25%);
