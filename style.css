@@ -645,6 +645,7 @@ p.section-title-descr {
   padding: 25px 0 19px;
   font-size: 16px;
   line-height: 24px;
+  text-align:justify;
 }
 
 
@@ -5236,7 +5237,7 @@ li.list-arrow {
 
 .about-us-list ul li span {
   display: inline-block;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 26px;
   color: #050a1e;
   font-weight: 400;
@@ -8849,7 +8850,7 @@ background-color: #28a745;
 
 .job-details-section h4 {
   margin-bottom: 20px;
-  font-size: 23px;
+  font-size: 28px;
   font-weight: 500;
 }
 
