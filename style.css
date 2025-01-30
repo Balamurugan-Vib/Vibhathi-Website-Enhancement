@@ -132,7 +132,7 @@ nav.solutek_menu span {
   margin: 0;
   line-height: 1.3;
   letter-spacing: normal;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   text-transform: capitalize;
   -webkit-transition: 0.1s;
@@ -5921,7 +5921,8 @@ li.list-arrow {
 }
 
 .services-details-thumb img {
-  width: 100%;
+  width: 90%;
+  margin-left: 35px;
 }
 
 .services-details-content {
