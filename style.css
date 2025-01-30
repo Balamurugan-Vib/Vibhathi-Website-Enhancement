@@ -5922,7 +5922,7 @@ li.list-arrow {
 
 .services-details-thumb img {
   width: 90%;
-  margin-left: 35px;
+  /* margin-left: 35px; */
 }
 
 .services-details-content {
@@ -6639,7 +6639,8 @@ a.project-details-text {
 .blog-area.style-grid .blog-box-content h3 {
   margin: 0;
   line-height: 30px;
-  padding-bottom: 20px;
+  padding: 12px 0px 12px;
+  font-size: 16px;
 }
 
 .blog-area.style-grid .blog-box-content h3 a {
@@ -8933,4 +8934,8 @@ h2.jobdetailheader.mb-0 {
 .blog-subheadingclass {
   font-size: 26px;
   padding: 0px 0px 20px;
+}
+
+.services-details-thumb {
+  text-align: center;
 }
