@@ -4529,7 +4529,12 @@
     .blog-details-thumb img {
         margin-bottom: 20px;
     }
-        
+     
+    .services-details-thumb img {
+        width: 70%;
+        margin-left: 60px;
+      }
+      
     }
     
     
