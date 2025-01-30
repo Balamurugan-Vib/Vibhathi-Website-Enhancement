@@ -4223,6 +4223,11 @@ ul.list-style-one li a:hover {
 
 .blog-area.style-two .blog-box-content h3 {
   margin: 0;
+  font-family: 'Poppins';
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  padding: 10px 0px 10px;
 }
 
 .blog-area.style-two .meta-blog a span {
@@ -4270,7 +4275,7 @@ ul.list-style-one li a:hover {
   font-weight: 400;
   font-family: "Poppins";
   text-decoration: none;
-  padding: 15px 0 0px;
+  padding: 10px;
   transition: 0.5s;
 }
 
