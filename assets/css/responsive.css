@@ -1,5 +1,5 @@
 /* Normal desktop :1400px. */
-@media (min-width: 1400px) and (max-width: 1600px) {
+@media (min-width: 1400px) and (max-width: 2560px) {
     .solutek_nav_manu {
         padding: 0px 39px 0;
     }
@@ -27,6 +27,16 @@
 
     .about-area::before {
         z-index: -1;
+    }
+
+    p.testi-text {
+        color: #fff;
+        opacity: 0.702;
+        padding: 35px 0 29px;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+        font-size: 14px;
     }
 
     /*home page two */
@@ -117,6 +127,7 @@
     .service-shape {
         z-index: -1;
     }
+
     .blog-area.style-grid .blog-box-content h3 {
         margin: 0;
         line-height: 25px;
@@ -951,6 +962,16 @@
         width: 240px;
     }
 
+    p.testi-text {
+        color: #fff;
+        opacity: 0.702;
+        padding: 35px 0 29px;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+        font-size: 14px;
+    }
+
     .project-area.style-three {
         padding: 120px 0 90px;
         margin: 0;
@@ -972,6 +993,13 @@
     .blog-content-tow {
         padding: 36px 29px 26px 20px;
         margin-top: 20px;
+    }
+
+    .blog-area.style-grid .blog-box-content h3 {
+        margin: 0;
+        line-height: 30px;
+        padding: 12px 0px 12px;
+        font-size: 15px;
     }
 
     h3.blog-title a {
@@ -998,6 +1026,7 @@
     .footer-area {
         margin: 0;
     }
+    
 
     /* home page two */
 
@@ -1070,7 +1099,7 @@
     }
 
     .project-area.styl-two {
-        margin: 0;
+        margin: 8px;
         overflow: hidden;
     }
 
@@ -1343,6 +1372,16 @@
         display: none;
     }
 
+    .about-us-list ul li span {
+        display: inline-block;
+        font-size: 11px;
+        line-height: 26px;
+        color: #050a1e;
+        font-weight: 400;
+        font-family: "Poppins";
+        margin-left: 30px;
+    }
+
     .project-area.style-two {
         margin: 0;
     }
@@ -1430,6 +1469,14 @@
         padding: 25px 10px 0 28px;
     }
 
+    h4.services-details-title {
+        margin-bottom: 10px;
+        font-size: 17px;
+        color: #050a1e;
+        font-weight: 500;
+    }
+      
+
     .team-area.style-two .team-social-icon {
         text-align: center;
     }
@@ -1501,6 +1548,15 @@
 
     .blog-area.style-grid .blog-box-content h3 a {
         font-size: 16px;
+    }
+
+    .blog-area.style-two .blog-box-content h3 {
+        margin: 0;
+        font-family: 'Poppins';
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+        padding: 10px 0px 10px;
     }
 
     .recent-widget-content a {
@@ -1777,7 +1833,7 @@
     }
 
     .project-area.styl-two {
-        margin: 0;
+        margin: 7px;
     }
 
     .project-area.styl-two h4.project-title a {
@@ -2049,6 +2105,21 @@
         left: -16px;
     }
 
+    .blog-area.style-grid .meta-blog p {
+        display: inline-block;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+
+    .blog-area.style-two .blog-box-content h3 {
+        margin: 0;
+        font-family: 'Poppins';
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+        padding: 10px 0px 10px;
+    }
+
     .team-area.style-inner .single-team-thumb::after {
         left: 76px;
     }
@@ -2106,6 +2177,13 @@
         font-size: 20px;
     }
 
+    h4.services-details-title {
+        margin-bottom: 10px;
+        font-size: 19px;
+        color: #050a1e;
+        font-weight: 500;
+    }
+
     /* blog grid */
     .recent-widget-content a {
         width: 70%;
@@ -2122,6 +2200,33 @@
     .blog-details-author-talk {
         padding: 41px 30px 40px;
     }
+
+    h3.widget-sidber-contact-number {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 600;
+        margin: 0 0 14px;
+    }
+    p.widget-sidber-contact-text {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 500;
+        margin: 0;
+        padding: 25px 0 13px;
+    }
+
+    span.widget-sidber-contact-gmail {
+        font-size: 11px;
+        color: #ffffff;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    .widget-sidber-contact-btn a {
+        font-size: 11px;
+      }
+
+
 
 }
 
@@ -3700,6 +3805,17 @@
         margin-left: 0;
     }
 
+    .about-us-list ul li span {
+        display: inline-block;
+        font-size: 10px;
+        line-height: 16px;
+        color: #050a1e;
+        font-weight: 400;
+        font-family: "Poppins";
+        margin-left: 30px;
+    }
+      
+
     .about-area .section-title.text-left {
         margin-bottom: 0;
         margin-left: 10px;
@@ -3733,6 +3849,17 @@
 
     .service-shape2 {
         display: none;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-left: 19px;
+    }
+
+    .headercsr {
+        font-size: 24px;
+        padding: 5px 0px 5px;
     }
 
     .sservice-area h1.section-main-title {
@@ -3775,6 +3902,7 @@
         left: 5%;
         width: 30%;
     }
+    
 
     .brand-area {
         margin: 0;
@@ -3852,6 +3980,13 @@
 
     .blog-date h4 span {
         margin-left: 0;
+    }
+
+    .blog-area.style-grid .blog-box-content h3 {
+        margin: 0;
+        line-height: 30px;
+        padding: 12px 0px 12px;
+        font-size: 15px;
     }
 
     .blog-date h4 span::before {
@@ -4326,7 +4461,7 @@
     }
 
     .breadcumb-content h4 {
-        font-size: 35px;
+        font-size: 27px;
     }
 
     .team-details-area .team-member-title h4 {
@@ -4429,7 +4564,7 @@
     }
 
     h4.services-details-title {
-        font-size: 26px;
+        font-size: 23px;
         line-height: 32px;
     }
 
@@ -4522,7 +4657,7 @@
     }
 
     p.blog-details-desc {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .blog-details-socila-box {
@@ -4605,6 +4740,14 @@
         width: 70%;
         /* margin-left: 60px; */
     }
-    
+
+    /* jobdetail header captions 20-1-2025 */
+
+   h2.jobdetailheader.mb-0 {
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Poppins';
+   }
+
 
 }
