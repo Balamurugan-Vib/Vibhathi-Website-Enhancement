@@ -1,6 +1,6 @@
 
 
-.solutek_nav_manu {
+.vibhathi_nav_menu {
   padding: 35px 39px 0;
 }
 
@@ -26,31 +26,31 @@
   margin-top: 0;
 }
 
-.sticky.solutek_nav_manu:before {
+.sticky.vibhathi_nav_menu:before {
   display: none;
 }
 
-/* solutek Menu Css*/
+/* vibhathi Menu Css*/
 
-nav.solutek_menu {
+nav.vibhathi_menu {
   align-items: center !important;
   justify-content: center;
   display: flex;
 }
 
-.solutek_menu ul {
+.vibhathi_menu ul {
   list-style: none;
   display: inline-block;
   padding: 0;
 }
 
-.solutek_menu > ul > li {
+.vibhathi_menu > ul > li {
   display: inline-block;
   position: relative;
   z-index: 2;
 }
 
-.solutek_menu > ul > li > a {
+.vibhathi_menu > ul > li > a {
   display: block;
   margin: 13px 11px 13px;
   -webkit-transition: 0.5s;
@@ -69,20 +69,20 @@ div#sticky-header {
   background-color: #060b20;
 }
 
-nav.solutek_menu ul li a i {
+nav.vibhathi_menu ul li a i {
   display: inline-block;
   font-size: 12px;
   padding-left: 5px;
 }
 
-nav.solutek_menu span {
+nav.vibhathi_menu span {
   font-size: 13px;
   padding-left: 6px;
   font-family: FontAwesome;
   opacity: 0.5;
 }
 
-.sticky .solutek_menu > ul > li > a:hover {
+.sticky .vibhathi_menu > ul > li > a:hover {
   color: #fff;
 }
 
@@ -92,12 +92,12 @@ nav.solutek_menu span {
   z-index: 1;
 }
 
-.solutek_menu > ul > li > a:hover {
+.vibhathi_menu > ul > li > a:hover {
   color: #7dc243;
 }
 
 /*** Sub Menu Style ***/
-.solutek_menu ul .sub-menu {
+.vibhathi_menu ul .sub-menu {
   position: absolute;
   left: 0;
   top: 150%;
@@ -114,7 +114,7 @@ nav.solutek_menu span {
   border-top: 3px solid #7dc243;
 }
 
-.solutek_menu ul li:hover > .sub-menu {
+.vibhathi_menu ul li:hover > .sub-menu {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   visibility: visible;
   top: 100%;
@@ -122,11 +122,11 @@ nav.solutek_menu span {
   z-index: 9999;
 }
 
-.solutek_menu ul .sub-menu li {
+.vibhathi_menu ul .sub-menu li {
   position: relative;
 }
 
-.solutek_menu ul .sub-menu li a {
+.vibhathi_menu ul .sub-menu li a {
   display: block;
   padding: 12px 12px;
   margin: 0;
@@ -142,17 +142,17 @@ nav.solutek_menu span {
   transition: 0.5s;
 }
 
-.solutek_menu ul .sub-menu li:hover > a,
-.solutek_menu ul .sub-menu .sub-menu li:hover > a,
-.solutek_menu ul .sub-menu .sub-menu .sub-menu li:hover > a,
-.solutek_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {
+.vibhathi_menu ul .sub-menu li:hover > a,
+.vibhathi_menu ul .sub-menu .sub-menu li:hover > a,
+.vibhathi_menu ul .sub-menu .sub-menu .sub-menu li:hover > a,
+.vibhathi_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {
   background: #7dc243;
   color: #fff !important;
 }
 
 /* sub menu 2 */
 
-.solutek_menu ul .sub-menu .sub-menu {
+.vibhathi_menu ul .sub-menu .sub-menu {
   left: 100%;
   top: 130%;
   opacity: 0;
@@ -160,7 +160,7 @@ nav.solutek_menu span {
   visibility: hidden;
 }
 
-.solutek_menu ul .sub-menu li:hover > .sub-menu {
+.vibhathi_menu ul .sub-menu li:hover > .sub-menu {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   visibility: visible;
@@ -169,11 +169,11 @@ nav.solutek_menu span {
 
 /* sub menu 3 */
 
-.solutek_menu ul .sub-menu .sub-menu li {
+.vibhathi_menu ul .sub-menu .sub-menu li {
   position: relative;
 }
 
-.solutek_menu ul .sub-menu .sub-menu .sub-menu {
+.vibhathi_menu ul .sub-menu .sub-menu .sub-menu {
   right: 100%;
   left: auto;
   top: 130%;
@@ -182,7 +182,7 @@ nav.solutek_menu span {
   visibility: hidden;
 }
 
-.solutek_menu ul .sub-menu .sub-menu li:hover > .sub-menu {
+.vibhathi_menu ul .sub-menu .sub-menu li:hover > .sub-menu {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   visibility: visible;
@@ -191,22 +191,22 @@ nav.solutek_menu span {
 
 /* sub menu 4 */
 
-.solutek_menu ul .sub-menu .sub-menu .sub-menu li {
+.vibhathi_menu ul .sub-menu .sub-menu .sub-menu li {
   position: relative;
 }
 
-.solutek_menu ul .sub-menu .sub-menu .sub-menu li:hover > .sub-menu {
+.vibhathi_menu ul .sub-menu .sub-menu .sub-menu li:hover > .sub-menu {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   visibility: visible;
   top: 0%;
 }
 
-.solutek_menu li a:hover:before {
+.vibhathi_menu li a:hover:before {
   width: 100%;
 }
 
-.solutek_nav_manu.sticky .logo_img {
+.vibhathi_nav_menu.sticky .logo_img {
   display: none;
 }
 
@@ -214,21 +214,21 @@ nav.solutek_menu span {
   display: none;
 }
 
-.solutek_nav_manu.sticky .main_sticky {
+.vibhathi_nav_menu.sticky .main_sticky {
   display: inherit;
 }
 
-.sticky .solutek_menu li a {
+.sticky .vibhathi_menu li a {
   color: #ffffff;
 }
 
-.solutek_nav_manu.sticky a.dtbtn {
+.vibhathi_nav_menu.sticky a.dtbtn {
   color: #fff;
   background: #f16722;
   border: 2px solid #f16722;
 }
 
-.solutek_nav_manu.sticky a.dtbtn:hover {
+.vibhathi_nav_menu.sticky a.dtbtn:hover {
   color: #43baff;
 }
 
@@ -280,7 +280,7 @@ nav.solutek_menu span {
 color: #7dc243;
 }
 /*=====================================
-<-- 02.start solutek hero Area Css -->
+<-- 02.start vibhathi hero Area Css -->
 =======================================*/
 
 .hero-area {
@@ -351,11 +351,11 @@ color: #7dc243;
   padding: 13px 0 43px;
 }
 
-.hero-area .solutek-hover-btn {
+.hero-area .vibhathi-hover-btn {
   background-color: #ffff;
 }
 
-.solutek-btn a:hover {
+.vibhathi-btn a:hover {
   color: #7dc243;
   background-color: white;
 }
@@ -438,13 +438,13 @@ a.service-btn:hover {
 }
 
 /*=====================================
-<--  end solutek hero Area Css -->
+<--  end vibhathi hero Area Css -->
 =======================================*/
 
 
 
 /*=====================================
-<-- 03.start solutek feature Area Css -->
+<-- 03.start vibhathi feature Area Css -->
 =======================================*/
 
 .feature-area {
@@ -578,13 +578,13 @@ p.feature-text {
 }
 
 /*=====================================
-<--  end solutek feature Area Css -->
+<--  end vibhathi feature Area Css -->
 =======================================*/
 
 
 
 /*==============================================
-<-- 04.start solutek section-title Area Css -->
+<-- 04.start vibhathi section-title Area Css -->
 ================================================*/
 
 .section-title.text-center {
@@ -736,13 +736,19 @@ h6.section-sub-title::after {
 }
 
 h1.section-main-title2 {
-  font-size: 45px;
+  font-size: 34px;
   line-height:55px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #050a1e;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Poppins";
 }
+
+h2.LAVheading {
+  font-size: 34px;
+  line-height: 30px;
+  font-weight:500;
+ }
 
 .about-section h6.section-sub-title {
   margin-left:70px;
@@ -816,13 +822,13 @@ h1.section-main-title2 {
 
 
 /*=====================================
-<--  end solutek section-title Area Css -->
+<--  end vibhathi section-title Area Css -->
 =======================================*/
 
 
 
 /*=====================================
-<-- 05.start solutek contact Area Css -->
+<-- 05.start vibhathi contact Area Css -->
 =======================================*/
 
 .contact-area {
@@ -956,12 +962,12 @@ h1.section-main-title2 {
 }
 
 /*=====================================
-<--  end solutek contact Area Css -->
+<--  end vibhathi contact Area Css -->
 =======================================*/
 
 
 /*=====================================
-<-- 06. start solutek blog Area Css -->
+<-- 06. start vibhathi blog Area Css -->
 =======================================*/
 
 .blog-area {
@@ -1169,7 +1175,7 @@ h3.blog-title-two a:hover {
 }
 
 /*=====================================
-<--  start solutek blog Area Css -->
+<--  start vibhathi blog Area Css -->
 =======================================*/
 
 
@@ -1177,7 +1183,7 @@ h3.blog-title-two a:hover {
 
 
 /*=====================================
-<--  start solutek about Area Css -->
+<--  start vibhathi about Area Css -->
 =======================================*/
 
 .about-area {
@@ -1261,11 +1267,11 @@ h4.about-title {
 
 /* button style */
 
-.solutek-btn {
+.vibhathi-btn {
   display: inline-block;
 }
 
-.solutek-btn a {
+.vibhathi-btn a {
   display: inline-block;
   background: #7dc243;
   text-decoration: none;
@@ -1280,11 +1286,11 @@ h4.about-title {
   transition: 0.5s;
 }
 
-.hero-area.style-three .solutek-btn a:hover {
+.hero-area.style-three .vibhathi-btn a:hover {
     color: #fff;
 }
 
-.solutek-hover-btn {
+.vibhathi-hover-btn {
   background-color: #050a1e;
   height: 100%;
   top: 0;
@@ -1323,17 +1329,17 @@ h4.about-title {
   border-radius: 0 30px 30px 0;
 }
 
-.solutek-btn a:hover .solutek-hover-btn {
+.vibhathi-btn a:hover .vibhathi-hover-btn {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
 /* btn-2 hover style */
-.solutek-button {
+.vibhathi-button {
   display: inline-block;
 }
-.solutek-button a {
+.vibhathi-button a {
   display: inline-block;
   background: #7dc243;
   text-decoration: none;
@@ -1364,13 +1370,13 @@ h4.about-title {
 }
 
 /*=====================================
-<--  end solutek about Area Css -->
+<--  end vibhathi about Area Css -->
 =======================================*/
 
 
 
 /*=====================================
-<--  start solutek service Area Css -->
+<--  start vibhathi service Area Css -->
 =======================================*/
 
 .sservice-area {
@@ -1507,11 +1513,11 @@ p.service-text {
 }
 
 /*=====================================
-<--  end solutek service Area Css -->
+<--  end vibhathi service Area Css -->
 =======================================*/
 
 /*=====================================
-<--  start solutek project Area Css -->
+<--  start vibhathi project Area Css -->
 =======================================*/
 
 .project-area {
@@ -1656,11 +1662,11 @@ h3.project-title a:hover {
 }
 
 /*=====================================
-<--  end solutek project Area Css -->
+<--  end vibhathi project Area Css -->
 =======================================*/
 
 /*=====================================
-<--  start solutek brand Area Css -->
+<--  start vibhathi brand Area Css -->
 =======================================*/
 
 .brand-area {
@@ -1683,11 +1689,11 @@ h3.project-title a:hover {
 }
 
 /*=====================================
-<--  end solutek brand Area Css -->
+<--  end vibhathi brand Area Css -->
 =======================================*/
 
 /*=====================================
-<--  start solutek pricing Area Css -->
+<--  start vibhathi pricing Area Css -->
 =======================================*/
 
 .pricing-area {
@@ -1793,17 +1799,17 @@ ul.pricing-list li i {
   margin-right: 14px;
 }
 
-.pricing-area .solutek-hover-btn {
+.pricing-area .vibhathi-hover-btn {
   background-color: #7dc243;
 }
 
-.pricing-area .solutek-btn a {
+.pricing-area .vibhathi-btn a {
   background: #f5ebe8;
   padding: 16px 55px;
   color: #7dc243;
 }
 
-.pricing-area .solutek-btn a:hover {
+.pricing-area .vibhathi-btn a:hover {
   color: #ffff;
 }
 
@@ -1825,11 +1831,11 @@ ul.pricing-list li i {
 }
 
 /*=====================================
-<--  end solutek pricing Area Css -->
+<--  end vibhathi pricing Area Css -->
 =======================================*/
 
 /*=====================================
-<--  start solutek faq-area Css -->
+<--  start vibhathi faq-area Css -->
 =======================================*/
 
 .faq-area {
@@ -2025,12 +2031,12 @@ a.active {
 }
 
 /*=====================================
-<--  end solutek faq-area Css -->
+<--  end vibhathi faq-area Css -->
 =======================================*/
 
 
 /*=====================================
-<--  start solutek testimonial-area Css -->
+<--  start vibhathi testimonial-area Css -->
 =======================================*/
 
 .testimonial-area {
@@ -2133,14 +2139,14 @@ ul.testi-rating li {
 }
 
 /*=====================================
-<--  end solutek testimonial-area Css -->
+<--  end vibhathi testimonial-area Css -->
 =======================================*/
 
 
 
 /*
 <!-- ==========================================-->
-<!-- Start solutek testimonial Area css style-two-->
+<!-- Start vibhathi testimonial Area css style-two-->
 <!-- =========================================-->*/
 .testimonial-area.style-two {
   background: #fff;
@@ -2307,7 +2313,7 @@ ul.testi-rating li {
 }
 
 /*---=====================================================
- <!-- Start solutek testimonial Area  style-three-->
+ <!-- Start vibhathi testimonial Area  style-three-->
 =========================================================---*/
 .testimonial-area.style-three {
   background: #fff;
@@ -2365,7 +2371,7 @@ ul.testi-rating li {
 
 
 /*---=====================================================
-   <!-- Start solutek testimonial Area style-four-->
+   <!-- Start vibhathi testimonial Area style-four-->
 =========================================================---*/
 
 .testimonial-area.style-four {
@@ -2532,7 +2538,7 @@ ul.testi-rating li {
 
 
 /*=====================================
-<--  start solutek address-area Css -->
+<--  start vibhathi address-area Css -->
 =======================================*/
 
 .address-area {
@@ -2587,7 +2593,7 @@ ul.testi-rating li {
   float: right;
 }
 
-.address-area .solutek-btn a {
+.address-area .vibhathi-btn a {
   display: inline-block;
   background: #050a1e;
   text-decoration: none;
@@ -2604,20 +2610,20 @@ ul.testi-rating li {
   transition: 0.5s;
 }
 
-.address-area .solutek-hover-btn {
+.address-area .vibhathi-hover-btn {
   background-color: #ffff;
 }
 
-.address-area .solutek-btn a:hover {
+.address-area .vibhathi-btn a:hover {
   color: #7dc243;
 }
 
 /*=====================================
-<--  end solutek address-area Css -->
+<--  end vibhathi address-area Css -->
 =======================================*/
 
 /*=====================================
-<--  start solutek footer-area Css -->
+<--  start vibhathi footer-area Css -->
 =======================================*/
 
 .footer-area {
@@ -2755,7 +2761,7 @@ p.newsletter-text {
   width: 100%;
 }
 
-/*----solutek copyright css-----*/
+/*----vibhathi copyright css-----*/
 
 .row.copyright {
   border-top: 1px solid #1c2030;
@@ -2798,13 +2804,13 @@ p.newsletter-text {
 }
 
 /*=====================================
-<--  end solutek footer-area Css -->
+<--  end vibhathi footer-area Css -->
 =======================================*/
 
 
 
 /*=====================================
-<-- start solutek Home two Css -->
+<-- start vibhathi Home two Css -->
 =======================================*/
 
 /*nav button*/
@@ -3139,32 +3145,32 @@ ul.list-style-one li a:hover {
 }
 
 /* home style-two manu-area */
-.solutek_nav_manu.style-two {
+.vibhathi_nav_menu.style-two {
   padding: 15px 39px 12px;
 }
 
-.solutek_nav_manu.style-two .solutek_menu > ul > li > a {
+.vibhathi_nav_menu.style-two .vibhathi_menu > ul > li > a {
   color: #232323 !important;
 }
 
-.solutek_nav_manu.style-two.sticky .solutek_menu > ul > li > a {
+.vibhathi_nav_menu.style-two.sticky .vibhathi_menu > ul > li > a {
   color: #fff !important;
 }
 
-.solutek_nav_manu.style-two .solutek_menu > ul > li > a:hover {
+.vibhathi_nav_menu.style-two .vibhathi_menu > ul > li > a:hover {
   color: #7dc243 !important;
 }
 
-.solutek_nav_manu.style-two .header-menu-btn {
+.vibhathi_nav_menu.style-two .header-menu-btn {
   text-align: right;
 }
 
-.solutek_nav_manu.style-two .sidebar-button {
+.vibhathi_nav_menu.style-two .sidebar-button {
   display: inline-block;
   margin-left: 30px;
 }
 
-.solutek_nav_manu.style-two .sidebar-button a {
+.vibhathi_nav_menu.style-two .sidebar-button a {
   color: #7dc243;
   display: inline-block;
   background-color: rgb(255 59 0/7%);
@@ -3173,7 +3179,7 @@ ul.list-style-one li a:hover {
   padding: 12px 15px;
 }
 
-.solutek_nav_manu.style-two .solutek-btn a:hover {
+.vibhathi_nav_menu.style-two .vibhathi-btn a:hover {
   color: #fff;
 }
 
@@ -3197,12 +3203,12 @@ ul.list-style-one li a:hover {
   display: inline-block;
 }
 
-.hero-area.style-two .solutek-btn {
+.hero-area.style-two .vibhathi-btn {
   display: inline-block;
   margin-right: 56px;
 }
 
-.hero-area.style-two .solutek-btn a:hover {
+.hero-area.style-two .vibhathi-btn a:hover {
   color: #fff;
 }
 
@@ -3257,7 +3263,7 @@ ul.list-style-one li a:hover {
 
 /*
 <!-- =====================================-->
-<!-- Start solutek marquee section css -->
+<!-- Start vibhathi marquee section css -->
 <!-- =====================================-->*/
 .marquee-section {
   position: relative;
@@ -3340,7 +3346,7 @@ ul.list-style-one li a:hover {
 
 /*
 <!-- =====================================-->
-<!-- Start solutek service Area style two  -->
+<!-- Start vibhathi service Area style two  -->
 <!-- =====================================-->*/
 .service-area.style-two {
   padding-top: 90px;
@@ -3477,7 +3483,7 @@ ul.list-style-one li a:hover {
 }
 /*
 <!-- =====================================-->
-<!-- Start solutek about Area style-two  -->
+<!-- Start vibhathi about Area style-two  -->
 <!-- =====================================-->*/
 .about-area.style-two {
   border-radius: 40px;
@@ -3583,7 +3589,7 @@ ul.list-style-one li a:hover {
   transition: 0.5s;
 }
 
-.about-area.style-two .solutek-btn {
+.about-area.style-two .vibhathi-btn {
   display: inline-block;
   margin-right: 24px;
 }
@@ -3606,13 +3612,13 @@ ul.list-style-one li a:hover {
   margin: 0;
 }
 
-.about-area.style-two .solutek-btn a:hover {
+.about-area.style-two .vibhathi-btn a:hover {
   color: #fff;
 }
 
 /*
 <!-- =====================================-->
-<!--start solutek team Area style-two-->
+<!--start vibhathi team Area style-two-->
 <!-- =====================================-->*/
 .team-area.style-two {
   padding: 110px 0 90px;
@@ -3757,7 +3763,7 @@ ul.list-style-one li a:hover {
 
 /*
 <!-- =====================================-->
-<!-- start solutek project Area style-two-->
+<!-- start vibhathi project Area style-two-->
 <!-- =====================================-->*/
 .project-area.styl-two {
   padding: 90px 0 0px;
@@ -4016,7 +4022,7 @@ ul.list-style-one li a:hover {
 
 /*
 <!-- ==========================================-->
-<!-- start solutek project-area styl-three -->
+<!-- start vibhathi project-area styl-three -->
 <!-- =========================================-->*/
 .project-area.style-three {
   background: url(assets/images/home-two/project-bg3.png);
@@ -4142,7 +4148,7 @@ ul.list-style-one li a:hover {
 
 /*
 <!-- ==========================================-->
-<!-- start solutek blog Area style-two-->
+<!-- start vibhathi blog Area style-two-->
 <!-- =========================================-->*/
 .blog-area.style-two {
   background: #fff;
@@ -4323,11 +4329,11 @@ ul.list-style-one li a:hover {
   right: 0;
 }
 
-/* <!--solutek home page three Css--> */
+/* <!--vibhathi home page three Css--> */
 
 
 /*---=====================================================
-   <!--solutek top header area Css-->
+   <!--vibhathi top header area Css-->
 =========================================================---*/
 .top-header-area {
   background-color: #050a1e;
@@ -4384,36 +4390,36 @@ ul.list-style-one li a:hover {
   color:#fff;
 }
 
-/*solutek home page 03 css 
+/*vibhathi home page 03 css 
   -----------------------*/
 
 /* home style-three manu-area */
-.solutek_nav_manu.style-three {
+.vibhathi_nav_menu.style-three {
   padding: 15px 90px 12px 140px;
 }
 
-.solutek_nav_manu.style-three .solutek_menu > ul > li > a {
+.vibhathi_nav_menu.style-three .vibhathi_menu > ul > li > a {
   color: #232323 !important;
 }
 
-.solutek_nav_manu.style-three.sticky .solutek_menu > ul > li > a {
+.vibhathi_nav_menu.style-three.sticky .vibhathi_menu > ul > li > a {
   color: #fff !important;
 }
 
-.solutek_nav_manu.style-three .solutek_menu > ul > li > a:hover {
+.vibhathi_nav_menu.style-three .vibhathi_menu > ul > li > a:hover {
   color: #7dc243 !important;
 }
 
-.solutek_nav_manu.style-three .header-menu-btn {
+.vibhathi_nav_menu.style-three .header-menu-btn {
   text-align: right;
 }
 
-.solutek_nav_manu.style-three .sidebar-button {
+.vibhathi_nav_menu.style-three .sidebar-button {
   display: inline-block;
   margin-left: 30px;
 }
 
-.solutek_nav_manu.style-three .sidebar-button a {
+.vibhathi_nav_menu.style-three .sidebar-button a {
   color: #7dc243;
   display: inline-block;
   background-color: rgb(255 59 0/7%);
@@ -4422,11 +4428,11 @@ ul.list-style-one li a:hover {
   padding: 12px 15px;
 }
 
-.solutek_nav_manu.style-three .solutek-btn a:hover {
+.vibhathi_nav_menu.style-three .vibhathi-btn a:hover {
   color: #fff;
 }
 
-.solutek_nav_manu.style-three .solutek-btn {
+.vibhathi_nav_menu.style-three .vibhathi-btn {
   display: inline-block;
   margin-left: 18px;
 }
@@ -4434,7 +4440,7 @@ ul.list-style-one li a:hover {
 /* hero area home 03 */
 
 /*---=====================================================
-   <!--solutek hero Area style-three-->
+   <!--vibhathi hero Area style-three-->
 =========================================================---*/
 .hero-area.style-three {
   /* height: 600px; */
@@ -4510,7 +4516,7 @@ ul.list-style-one li a:hover {
   padding: 20px 0px;
 }
 
-.hero-area.style-three .solutek-btn {
+.hero-area.style-three .vibhathi-btn {
   display: inline-block;
   margin-right: 16px;
 }
@@ -4625,7 +4631,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-  <!-- Start solutek our service section  -->
+  <!-- Start vibhathi our service section  -->
 =========================================================---*/
 .our-service-section {
   background: url(assets/images/home-3/service-bg.png);
@@ -4700,7 +4706,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-  <!-- start solutek about section -->
+  <!-- start vibhathi about section -->
 =========================================================---*/
 .about-section {
   background: url(assets/images/home-3/about3-bg.png);
@@ -4742,7 +4748,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-   <!-- start solutek counter area -->
+   <!-- start vibhathi counter area -->
 =========================================================---*/
 .counter-area {
   position: relative;
@@ -4804,7 +4810,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-   <!-- start solutek case studies area -->
+   <!-- start vibhathi case studies area -->
 =========================================================---*/
 .case-studies-area {
   background-color: #050a1e;
@@ -4980,7 +4986,7 @@ ul.list-style-one li a:hover {
 
 
 /*---=====================================================
-   <!--start solutek working proces area -->
+   <!--start vibhathi working proces area -->
 =========================================================---*/
 .working-proces-area {
   padding: 110px 0 90px;
@@ -5095,7 +5101,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-   <!-- start solutek-faq Area style-two-->
+   <!-- start vibhathi-faq Area style-two-->
 =========================================================---*/
 .faq-area.style-two {
   background: url(assets/images/home-3/faq-bg.png);
@@ -5136,7 +5142,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-   <!--solutek Breadcumb Area Css-->
+   <!--vibhathi Breadcumb Area Css-->
 =========================================================---*/
 .breadcumb-area {
   background: url(assets/images/inner/breadcumb-bg.png);
@@ -5203,7 +5209,7 @@ li.list-arrow {
 
 
 /* <!--==================================================-- */
-/* <!--start solutek About Us Area -- */
+/* <!--start vibhathi About Us Area -- */
 /* <!--==================================================--> */
 .about-us-area {
   background: #fff;
@@ -5355,7 +5361,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-  <!-- start solutek project Area style-two -->
+  <!-- start vibhathi project Area style-two -->
 =========================================================---*/
 .project-area.style-two {
   padding: 60px 0 60px;
@@ -5372,7 +5378,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-<!-- start solutek service Area style-two-->
+<!-- start vibhathi service Area style-two-->
 =========================================================---*/
 .sservice-area.style-two {
   padding: 120px 0 58px;
@@ -5486,7 +5492,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-<!--start solutek team Area style-inner-->
+<!--start vibhathi team Area style-inner-->
 =========================================================---*/
 .team-area.style-inner {
   padding: 110px 0 90px;
@@ -5630,7 +5636,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-<!-- Start solutek Team Details Area-->
+<!-- Start vibhathi Team Details Area-->
 =========================================================---*/
 .team-details-area {
   padding: 122px 0 88px;
@@ -5794,7 +5800,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-   <!--solutek skill bar-->
+   <!--vibhathi skill bar-->
 =========================================================---*/
 
 .skill {
@@ -5856,7 +5862,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-   <!--solutek skill bar-->
+   <!--vibhathi skill bar-->
 =========================================================---*/
 
 .skill {
@@ -5918,7 +5924,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
- <!-- Start solutek services details area css-->
+ <!-- Start vibhathi services details area css-->
 =========================================================---*/
 .services-details-area {
   padding: 25px 0 15px;
@@ -6352,7 +6358,7 @@ button.icons {
   left: 0;
 }
 /*---=====================================================
-	<!-- Start solutek case study area css -->
+	<!-- Start vibhathi case study area css -->
 =========================================================---*/
 .case-study-area {
   padding: 100px 0 90px;
@@ -6500,7 +6506,7 @@ li.current_menu_item {
 }
 
 /*---=====================================================
-<!--start solutek project details area css -->
+<!--start vibhathi project details area css -->
 =========================================================---*/
 .project-details-area {
   padding: 60px 0 60px;
@@ -6593,7 +6599,7 @@ a.project-details-text {
 }
 
 /*---=====================================================
-<!-- Start solutek blog Area css style-grid-->
+<!-- Start vibhathi blog Area css style-grid-->
 =========================================================---*/
 .blog-area.style-grid .single-blog-box {
   background: #fff;
@@ -6711,7 +6717,7 @@ a.project-details-text {
 }
 
 /*---=====================================================
-<!-- Start solutek blog details css-->
+<!-- Start vibhathi blog details css-->
 =========================================================---*/
 .blog-details-area {
   padding: 40px 0 40px;
@@ -7062,7 +7068,7 @@ p.blog-details-desc.three {
 }
 
 /*---=====================================================
-<!-- Start solutek google map area -->
+<!-- Start vibhathi google map area -->
 =========================================================---*/
 .google-map iframe {
   width: 100%;
@@ -7112,7 +7118,7 @@ p.blog-details-desc.three {
 
 /*
 <!-- ============================================================== -->
-<!-- solutek Scrollup Section -->
+<!-- vibhathi Scrollup Section -->
 <!-- ============================================================== -->*/
 
 .scroll-area {
@@ -7293,7 +7299,7 @@ p.blog-details-desc.three {
 }
 
 /*===========================
-<-- solutek Loader Css -->
+<-- vibhathi Loader Css -->
 =============================*/
 
 .loader-wrapper {
