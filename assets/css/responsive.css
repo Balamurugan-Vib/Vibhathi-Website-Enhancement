@@ -1,6 +1,6 @@
 /* Normal desktop :1400px. */
 @media (min-width: 1400px) and (max-width: 2560px) {
-    .solutek_nav_manu {
+    .vibhathi_nav_menu {
         padding: 0px 39px 0;
     }
 
@@ -75,7 +75,7 @@
     }
 
     /* home page three */
-    .solutek_nav_manu.style-three {
+    .vibhathi_nav_menu.style-three {
         padding: 15px 40px 12px 40px;
     }
 
@@ -148,7 +148,7 @@
 
 /* Normal desktop :1300px. */
 @media (min-width: 1300px) and (max-width: 1399px) {
-    .solutek_nav_manu {
+    .vibhathi_nav_menu {
         padding: 0px 39px 0;
     }
 
@@ -177,7 +177,7 @@
         padding: 0 50px 0;
     }
 
-    .pricing-area .solutek-btn a {
+    .pricing-area .vibhathi-btn a {
         padding: 16px 32px;
     }
 
@@ -303,20 +303,20 @@
     }
 
     /* home page three */
-    .solutek_nav_manu.style-three {
+    .vibhathi_nav_menu.style-three {
         padding: 15px 30px 12px 30px;
     }
 
-    .solutek_nav_manu.style-three .header-menu-btn {
+    .vibhathi_nav_menu.style-three .header-menu-btn {
         text-align: left;
     }
 
-    .solutek_nav_manu.style-three .sidebar-button {
+    .vibhathi_nav_menu.style-three .sidebar-button {
         display: inline-block;
         margin-left: 0;
     }
 
-    .solutek_nav_manu.style-three .solutek-btn {
+    .vibhathi_nav_menu.style-three .vibhathi-btn {
         display: inline-block;
         margin-left: 20px;
     }
@@ -466,7 +466,7 @@
 @media (min-width: 1200px) and (max-width: 1299px) {
 
     /* home page one */
-    .solutek_nav_manu {
+    .vibhathi_nav_menu {
         padding: 0px 39px 0;
     }
 
@@ -564,15 +564,15 @@
     }
 
     /* home page two */
-    .solutek_nav_manu.style-two {
+    .vibhathi_nav_menu.style-two {
         padding: 15px 20px 12px;
     }
 
-    .solutek_menu>ul>li>a {
+    .vibhathi_menu>ul>li>a {
         margin: 23px 18px 23px;
     }
 
-    .solutek-btn a {
+    .vibhathi-btn a {
         padding: 5px 6px;
     }
 
@@ -662,20 +662,20 @@
     }
 
     /* home page three */
-    .solutek_nav_manu.style-three {
+    .vibhathi_nav_menu.style-three {
         padding: 15px 30px 12px 30px;
     }
 
-    .solutek_nav_manu.style-three .header-menu-btn {
+    .vibhathi_nav_menu.style-three .header-menu-btn {
         text-align: left;
     }
 
-    .solutek_nav_manu.style-three .sidebar-button {
+    .vibhathi_nav_menu.style-three .sidebar-button {
         display: inline-block;
         margin-left: 0;
     }
 
-    .solutek_nav_manu.style-three .solutek-btn {
+    .vibhathi_nav_menu.style-three .vibhathi-btn {
         display: inline-block;
         margin-left: 20px;
     }
@@ -828,15 +828,15 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
     /* home page one */
-    .solutek_nav_manu {
+    .vibhathi_nav_menu {
         background: #050a1e;
     }
 
-    .solutek_nav_manu {
+    .vibhathi_nav_menu {
         padding: 0px 3px 0;
     }
 
-    .solutek_menu>ul>li>a {
+    .vibhathi_menu>ul>li>a {
         margin: 23px 14px 23px;
         color: #fff;
     }
@@ -928,7 +928,7 @@
         margin-right: 5px;
     }
 
-    .pricing-area .solutek-btn a {
+    .pricing-area .vibhathi-btn a {
         padding: 16px 38px;
     }
 
@@ -1030,27 +1030,27 @@
 
     /* home page two */
 
-    .solutek_nav_manu.style-two .solutek_menu>ul>li>a {
+    .vibhathi_nav_menu.style-two .vibhathi_menu>ul>li>a {
         margin: 23px 6px 23px;
     }
 
-    .solutek_nav_manu.style-two .solutek_menu>ul>li>a {
+    .vibhathi_nav_menu.style-two .vibhathi_menu>ul>li>a {
         color: #fff !important;
     }
 
-    .solutek_nav_manu.style-two .logo img {
+    .vibhathi_nav_menu.style-two .logo img {
         width: 100%;
     }
 
-    .solutek_nav_manu.style-two .header-menu-btn {
+    .vibhathi_nav_menu.style-two .header-menu-btn {
         text-align: left;
     }
 
-    .solutek_nav_manu.style-two .sidebar-button {
+    .vibhathi_nav_menu.style-two .sidebar-button {
         margin-left: 0;
     }
 
-    .solutek_nav_manu.style-two .solutek-btn a {
+    .vibhathi_nav_menu.style-two .vibhathi-btn a {
         padding: 10px 13px;
         text-transform: capitalize;
     }
@@ -1196,11 +1196,11 @@
     }
 
     /* home page three */
-    .solutek_nav_manu.style-three {
+    .vibhathi_nav_menu.style-three {
         padding: 15px 10px 12px 10px;
     }
 
-    .solutek_nav_manu.style-three .solutek_menu>ul>li>a {
+    .vibhathi_nav_menu.style-three .vibhathi_menu>ul>li>a {
         color: #fff !important;
     }
 
@@ -1212,23 +1212,23 @@
         margin-right: 15px;
     }
 
-    .solutek_menu>ul>li>a {
+    .vibhathi_menu>ul>li>a {
         margin: 23px 10px 23px;
     }
 
-    .solutek_nav_manu.style-three .sidebar-button {
+    .vibhathi_nav_menu.style-three .sidebar-button {
         margin-left: 0;
     }
 
-    .solutek_nav_manu.style-three .header-menu-btn {
+    .vibhathi_nav_menu.style-three .header-menu-btn {
         text-align: left;
     }
 
-    .solutek_nav_manu.style-three .solutek-btn {
+    .vibhathi_nav_menu.style-three .vibhathi-btn {
         margin-left: 0;
     }
 
-    .solutek-btn a {
+    .vibhathi-btn a {
         padding: 8px 13px;
         font-size: 14px;
     }
@@ -1598,7 +1598,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
     /*home page one */
-    .solutek_nav_manu {
+    .vibhathi_nav_menu {
         display: none;
     }
 
@@ -1611,7 +1611,7 @@
         display: none;
     }
 
-    .sticky .solutek-btn a {
+    .sticky .vibhathi-btn a {
         display: none;
     }
 
@@ -1813,7 +1813,20 @@
     }
 
     .service-area.style-two {
-        padding: 120px 0 120px;
+        padding: 120px 0 0px;
+    }
+
+    .copyright-list ul li a {
+        display: inline-block;
+        opacity: 0.6;
+        font-size: 15px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Poppins";
+        text-decoration: none;
+        margin-left: 37px;
+        transition: 0.5s;
     }
 
     .about-area.style-two {
@@ -1900,9 +1913,18 @@
     }
 
     .hero-area.style-three .hero-contant h1 {
-        font-size: 50px;
+        font-size: 40px;
         line-height: 60px;
     }
+
+    .hero-area.style-three .hero-contant span {
+        display: inline-block;
+        font-size: 40px;
+        line-height: 50px;
+        color: #7dc243;
+        font-weight: 700;
+        margin-right: 10px;
+      }
 
     .hero-area.style-three .hero-thumb-shape {
         display: none;
@@ -1917,7 +1939,7 @@
         width: 100%;
     }
 
-    .hero-area.style-three .solutek-btn {
+    .hero-area.style-three .vibhathi-btn {
         margin-right: 0;
     }
 
@@ -2224,7 +2246,31 @@
     
     .widget-sidber-contact-btn a {
         font-size: 11px;
-      }
+    }
+
+    .apply-btn {
+        background-color: #28a745;
+        color: #ffffff;
+        border-radius: 5px;
+        padding: 2px 7px;
+        text-transform: none;
+        font-size: 13px;
+        font-weight: 400;
+    }  
+    .job-company2 {
+        font-size: 13px;
+    }
+    .job-title2 {
+        font-size: 9px;
+    }
+    .service-area.style-two .service-title {
+        font-size: 13px;
+        color: #050a1e;
+        font-weight: 600;
+        position: relative;
+        transition: 0.5s;
+    }
+      
 
 
 
@@ -2234,7 +2280,7 @@
 @media only screen and (min-width: 600px) and (max-width: 767px) {
 
     /* home page one */
-    .solutek_nav_manu {
+    .vibhathi_nav_menu {
         display: none;
     }
 
@@ -2247,7 +2293,7 @@
         display: none;
     }
 
-    .sticky .solutek-btn a {
+    .sticky .vibhathi-btn a {
         display: none;
     }
 
@@ -2929,7 +2975,7 @@
 @media only screen and (min-width: 480px) and (max-width: 599px) {
 
     /* home page one */
-    .solutek_nav_manu {
+    .vibhathi_nav_menu {
         display: none;
     }
 
@@ -2942,7 +2988,7 @@
         display: none;
     }
 
-    .sticky .solutek-btn a {
+    .sticky .vibhathi-btn a {
         display: none;
     }
 
@@ -3733,8 +3779,8 @@
 /* small mobile :320px. */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 
-    /* solutek home page one */
-    .solutek_nav_manu {
+    /* vibhathi home page one */
+    .vibhathi_nav_menu {
         display: none;
     }
 
@@ -3751,7 +3797,7 @@
         display: none;
     }
 
-    .sticky .solutek-btn a {
+    .sticky .vibhathi-btn a {
         display: none;
     }
 
@@ -3822,11 +3868,11 @@
     }
 
     h1.section-main-title {
-        font-size: 22px;
+        font-size: 24px;
         line-height: 15px;
     }
 
-    .solutek-btn {
+    .vibhathi-btn {
         display: inline-block;
         margin-bottom: 12px;
     }
@@ -4007,7 +4053,7 @@
         padding: 6px 10px 6px;
     }
 
-    .solutek-btn a {
+    .vibhathi-btn a {
         padding: 10px 28px;
     }
 
@@ -4253,7 +4299,7 @@
         width: 50%;
     }
 
-    .hero-area.style-three .solutek-btn {
+    .hero-area.style-three .vibhathi-btn {
         margin-bottom: 30px;
     }
 
@@ -4553,6 +4599,7 @@
 
     .widget-category ul li a {
         padding: 14px 10px;
+        font-size: 13px;
     }
 
     .widget-sidber-contact-btn a {
@@ -4749,5 +4796,24 @@
     font-family: 'Poppins';
    }
 
+   h3 {
+       font-size: 24px;
+       font-weight: 500;
+       line-height: 40px;
+   }
+
+   h1.section-main-title2 {
+    font-size: 19px;
+    font-family: 'Poppins';
+    /* font-weight: 500;
+    line-height: 55px; */
+    line-height: 30px;
+    color: black;
+   }
+
+   h2.LAVheading {
+    font-size: 26px;
+    line-height: 30px;
+   }
 
 }
