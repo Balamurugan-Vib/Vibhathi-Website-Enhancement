@@ -2270,10 +2270,19 @@
         position: relative;
         transition: 0.5s;
     }
+    .job-details-section h4 {
+        margin-bottom: 20px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .widget-sidber-content h4 {
+        font-size: 19px;
+        font-weight: 500;
+        margin: 0 0 46px;
+        position: relative;
+    }
       
-
-
-
 }
 
 /* Large Mobile :600px. */
